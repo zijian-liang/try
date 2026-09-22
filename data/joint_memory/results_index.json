@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "points": [
+    "points/w7_p0.006_R7_81450cf708f6/result.json",
+    "points/bb72_p0.006_R6_8217e7a6884a/result.json",
+    "points/surface7_p0.006_R7_24705c828438/result.json",
+    "points/w7_p0.005_R7_2f115b390424/result.json",
+    "points/bb72_p0.005_R6_d1c5716be1fd/result.json",
+    "points/surface7_p0.005_R7_06ca6ea7f5ea/result.json",
+    "points/w7_p0.004_R7_3a0695c0c065/result.json",
+    "points/bb72_p0.004_R6_f8e3de65bd29/result.json",
+    "points/surface7_p0.004_R7_cd5dcad732dd/result.json",
+    "points/w7_p0.0035_R7_a0856b6bc903/result.json",
+    "points/bb72_p0.0035_R6_6daca99d840b/result.json",
+    "points/surface7_p0.0035_R7_305b001c0ecd/result.json",
+    "points/w7_p0.003_R7_99ecd5ffde71/result.json",
+    "points/bb72_p0.003_R6_de4abca51199/result.json",
+    "points/surface7_p0.003_R7_cb99868c8117/result.json",
+    "points/w7_p0.0025_R7_6c608635c852/result.json",
+    "points/bb72_p0.0025_R6_000f80667fa2/result.json",
+    "points/surface7_p0.0025_R7_70c63b991411/result.json",
+    "points/w7_p0.002_R7_2bd52dc91245/result.json",
+    "points/bb72_p0.002_R6_8b5551574e1d/result.json",
+    "points/surface7_p0.002_R7_842888d87e78/result.json",
+    "points/w7_p0.0015_R7_e1d38c028612/result.json",
+    "points/bb72_p0.0015_R6_155eee08ce11/result.json",
+    "points/surface7_p0.0015_R7_3a3331132f5b/result.json",
+    "points/w7_p0.001_R7_3ae0b9ba9949/result.json",
+    "points/bb72_p0.001_R6_542d8f50dc1b/result.json",
+    "points/surface7_p0.001_R7_01b415948fb2/result.json"
+  ],
+  "updated_utc": "2026-09-20T23:16:45+00:00"
+}

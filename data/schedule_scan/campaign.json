@@ -1,0 +1,15 @@
+{
+  "fixed_request": {
+    "seed": 20260921,
+    "sample_seed": 20260921,
+    "allow_uncertified": false
+  },
+  "code": "w7",
+  "rounds": 7,
+  "idle_scale": 0,
+  "beam": 2,
+  "p_supported": [
+    0.003,
+    0.0025
+  ]
+}

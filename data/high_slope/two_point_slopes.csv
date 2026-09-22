@@ -1,0 +1,5 @@
+candidate_id,p_low,p_high,alpha,nominal_delta_method_sigma,both_targets_reached,distance_lower_bound,distance_upper_bound,status
+parallel8_4c4fb6c67ebc,0.0025,0.003,9.051137870522542,1.5363329592273802,True,6,6,estimated_from_independent_confirmation_data
+parallel9_4ec1ca467df4,0.0025,0.003,6.595478236278127,1.4362490475864613,True,6,6,estimated_from_independent_confirmation_data
+parallel9_a2b5cacfbb84,0.0025,0.003,5.332192282667021,1.4362450257738026,True,6,6,estimated_from_independent_confirmation_data
+w7_baseline,0.0025,0.003,6.89122796508404,1.229893014857607,True,6,6,estimated_from_independent_confirmation_data

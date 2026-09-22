@@ -1,0 +1,2 @@
+# Plotting saved observations does not require the simulation stack.
+matplotlib>=3.7,<4

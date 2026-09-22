@@ -1,0 +1,20 @@
+{
+  "candidate_ids": [
+    "w7_baseline",
+    "parallel8_215be26722e3",
+    "parallel9_a2b5cacfbb84",
+    "parallel8_4c4fb6c67ebc",
+    "parallel9_29757d3627fd",
+    "parallel8_64ed9c3703ea",
+    "parallel9_12e4cb50666f",
+    "parallel8_558803c38e91",
+    "parallel9_ad6ecb11d763",
+    "parallel8_9e4d4ad0009c",
+    "parallel9_4ec1ca467df4",
+    "parallel8_d4168a22d247"
+  ],
+  "selection_policy": "baseline first; retain previous choices; family-balanced manifest order; no Monte Carlo ranking",
+  "max_circuits": 12,
+  "selected_utc": "2026-09-20T16:18:44.661553+00:00",
+  "allow_uncertified": false
+}

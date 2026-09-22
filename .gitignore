@@ -1,4 +1,4 @@
-# Python environments and caches
+# Python environments, caches, and build products
 .venv*/
 venv/
 env/
@@ -12,22 +12,22 @@ __pycache__/
 build/
 dist/
 
-# Generated experiment outputs
+# New runs and regenerated figures; curated data/ and artifacts/ are tracked.
+/generated/
 results/
 scan_results/
 validation/
 plots/
-figures/
 validation_*.json
-**/data/candidates.json
-**/data/ranking.csv
-*.log
+*.dem
+*.stim
 *.lock
+*.log
+!experiments/high_slope/data/old_scan.log
+/experiments/high_slope/data/candidates.json
+/experiments/high_slope/data/ranking.csv
 
-# Required historical input used by the high-slope program
-!**/data/old_scan.log
-
-# Local credentials and editor/system files
+# Local configuration
 .env
 .env.*
 !.env.example
