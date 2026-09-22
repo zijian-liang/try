@@ -1,0 +1,1366 @@
+{
+  "schema_version": 1,
+  "rounds_policy": "R equals static distance d",
+  "codes": {
+    "w7": {
+      "circuit_sha256": "51590f674339b4770472e2bfa9f93566b2fa344f214a9fccf0b0864d005233e2",
+      "rounds": 7,
+      "idle_scale": 0.0,
+      "schedule_sha256": "a59e430d4363b02cf8dbbdf54e1e914423f2835282d871d2a67319d9f5b6cc51",
+      "schedule": {
+        "x": [
+          0,
+          null,
+          3,
+          6,
+          5,
+          4,
+          1,
+          2
+        ],
+        "z": [
+          6,
+          5,
+          0,
+          1,
+          3,
+          2,
+          null,
+          4
+        ]
+      },
+      "noise": {
+        "model": "IBM depolarizing primitives; preparation and measurement p; CNOT p; idle_scale*p on idle data",
+        "p": 0.001,
+        "idle_scale": 0.0
+      },
+      "boundary": "initial encoded Bell state and initial Z prep perfect; Z prep at previous cycle end; two clean cycles; ideal logical/ref MPP",
+      "fault_model": "complete_undecomposed_dem_single_physical_Pauli_faults",
+      "num_detectors": 504,
+      "num_observables": 24,
+      "num_distinct_fault_responses": 19796,
+      "lower_bound": 6,
+      "upper_bound": 6,
+      "exact": true,
+      "certificates": [
+        {
+          "lower_bound": 4,
+          "method": "exact_weights_1_2_3",
+          "triple_complete": true,
+          "triple_seconds": 4.713057563996699
+        },
+        {
+          "lower_bound": 5,
+          "method": "exact_complete_CSS_projections_through_weight4",
+          "sectors": {
+            "X": {
+              "lower_bound": 5,
+              "complete": true,
+              "method": "exact_weight4_pair_enumeration",
+              "pair_syndromes": 2939090,
+              "seconds": 2.4407080820019473
+            },
+            "Z": {
+              "lower_bound": 5,
+              "complete": true,
+              "method": "exact_weight4_pair_enumeration",
+              "pair_syndromes": 2871260,
+              "seconds": 2.010509080995689
+            }
+          }
+        },
+        {
+          "lower_bound": 6,
+          "method": "exact_complete_CSS_projections_through_weight5",
+          "sectors": {
+            "X": {
+              "lower_bound": 6,
+              "complete": true,
+              "method": "exact_connected_weight5",
+              "assumption": "complete exclusion of all logical fault sets with weight<=4",
+              "triples_checked": 33204976,
+              "pair_syndromes": 2939090,
+              "seconds": 21.10632823099877
+            },
+            "Z": {
+              "lower_bound": 6,
+              "complete": true,
+              "method": "exact_connected_weight5",
+              "assumption": "complete exclusion of all logical fault sets with weight<=4",
+              "triples_checked": 33040952,
+              "pair_syndromes": 2871260,
+              "seconds": 20.246636065996427
+            }
+          }
+        }
+      ],
+      "witness": {
+        "weight_upper_bound": 6,
+        "logical_observables_flipped": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8,
+          9,
+          11
+        ],
+        "detector_parity_zero": true,
+        "dem_errors": "error(1) D56 D74 D75\nerror(1) D68 D69 D78\nerror(1) D59 D77 D78\nerror(1) D59 D66 D68 D69 D71 D74 D77 D82 L1 L4 L5 L6 L7 L8 L10\nerror(1) D9 D66 D75 D90 D93 D105 D110\nerror(1) D9 D56 D71 D82 D90 D93 D105 D110 L2 L7 L9 L10 L11",
+        "physical_errors": [
+          "ExplainedError {\n    dem_error_terms: D9[coords 9,1,0] D56[coords 0,1,1] D71[coords 15,1,1] D82[coords 26,1,1] D90[coords 6,0,1] D93[coords 9,0,1] D105[coords 21,0,1] D110[coords 26,0,1] L2 L7 L9 L10 L11\n    CircuitErrorLocation {\n        flipped_pauli_product: X26*Y93\n        Circuit location stack trace:\n            (after 7 TICKs)\n            at instruction #44 (DEPOLARIZE2) in the circuit\n            at targets #75 to #76 of the instruction\n            resolving to DEPOLARIZE2(0.001) 26 93\n    }\n}",
+          "ExplainedError {\n    dem_error_terms: D9[coords 9,1,0] D66[coords 10,1,1] D75[coords 19,1,1] D90[coords 6,0,1] D93[coords 9,0,1] D105[coords 21,0,1] D110[coords 26,0,1]\n    CircuitErrorLocation {\n        flipped_pauli_product: Y37\n        Circuit location stack trace:\n            (after 7 TICKs)\n            at instruction #44 (DEPOLARIZE2) in the circuit\n            at targets #13 to #14 of the instruction\n            resolving to DEPOLARIZE2(0.001) 62 37\n    }\n}",
+          "ExplainedError {\n    dem_error_terms: D56[coords 0,1,1] D74[coords 18,1,1] D75[coords 19,1,1]\n    CircuitErrorLocation {\n        flipped_pauli_product: X46\n        Circuit location stack trace:\n            (after 9 TICKs)\n            at instruction #50 (DEPOLARIZE2) in the circuit\n            at targets #93 to #94 of the instruction\n            resolving to DEPOLARIZE2(0.001) 46 102\n    }\n}",
+          "ExplainedError {\n    dem_error_terms: D59[coords 3,1,1] D66[coords 10,1,1] D68[coords 12,1,1] D69[coords 13,1,1] D71[coords 15,1,1] D74[coords 18,1,1] D77[coords 21,1,1] D82[coords 26,1,1] L1 L4 L5 L6 L7 L8 L10\n    CircuitErrorLocation {\n        flipped_pauli_product: X70\n        Circuit location stack trace:\n            (after 7 TICKs)\n            at instruction #44 (DEPOLARIZE2) in the circuit\n            at targets #29 to #30 of the instruction\n            resolving to DEPOLARIZE2(0.001) 70 45\n    }\n}",
+          "ExplainedError {\n    dem_error_terms: D59[coords 3,1,1] D77[coords 21,1,1] D78[coords 22,1,1]\n    CircuitErrorLocation {\n        flipped_pauli_product: X49\n        Circuit location stack trace:\n            (after 9 TICKs)\n            at instruction #50 (DEPOLARIZE2) in the circuit\n            at targets #99 to #100 of the instruction\n            resolving to DEPOLARIZE2(0.001) 49 105\n    }\n}",
+          "ExplainedError {\n    dem_error_terms: D68[coords 12,1,1] D69[coords 13,1,1] D78[coords 22,1,1]\n    CircuitErrorLocation {\n        flipped_pauli_product: X40\n        Circuit location stack trace:\n            (after 9 TICKs)\n            at instruction #50 (DEPOLARIZE2) in the circuit\n            at targets #81 to #82 of the instruction\n            resolving to DEPOLARIZE2(0.001) 40 96\n    }\n}"
+        ],
+        "physical_location_keys": [
+          {
+            "tick_offset": 7,
+            "target_range_start": 74,
+            "target_range_end": 76,
+            "stack": [
+              [
+                43,
+                0
+              ]
+            ]
+          },
+          {
+            "tick_offset": 7,
+            "target_range_start": 12,
+            "target_range_end": 14,
+            "stack": [
+              [
+                43,
+                0
+              ]
+            ]
+          },
+          {
+            "tick_offset": 9,
+            "target_range_start": 92,
+            "target_range_end": 94,
+            "stack": [
+              [
+                49,
+                0
+              ]
+            ]
+          },
+          {
+            "tick_offset": 7,
+            "target_range_start": 28,
+            "target_range_end": 30,
+            "stack": [
+              [
+                43,
+                0
+              ]
+            ]
+          },
+          {
+            "tick_offset": 9,
+            "target_range_start": 98,
+            "target_range_end": 100,
+            "stack": [
+              [
+                49,
+                0
+              ]
+            ]
+          },
+          {
+            "tick_offset": 9,
+            "target_range_start": 80,
+            "target_range_end": 82,
+            "stack": [
+              [
+                49,
+                0
+              ]
+            ]
+          }
+        ],
+        "distinct_physical_locations": 6
+      },
+      "upper_bound_method": "previous_witness_revalidated_in_current_rounds",
+      "search_notes": [
+        {
+          "graphlike_subset": "Failed to find any graphlike logical errors."
+        }
+      ],
+      "method": "certified_lower_bound_and_explicit_physical_fault_witness",
+      "elapsed_seconds": 51.45680593299767
+    },
+    "bb72": {
+      "circuit_sha256": "73961e2711b660d9152af6c34cb2a95c530c32d4541472399db9c28a1d021547",
+      "rounds": 6,
+      "idle_scale": 0.0,
+      "schedule_sha256": "cce41ba2f7e0900a218112f64d9860e95ff735f01f76c2dc3fa904fd41a27556",
+      "schedule": {
+        "x": [
+          null,
+          1,
+          4,
+          3,
+          5,
+          0,
+          2
+        ],
+        "z": [
+          3,
+          5,
+          0,
+          1,
+          2,
+          4,
+          null
+        ]
+      },
+      "noise": {
+        "model": "IBM depolarizing primitives; preparation and measurement p; CNOT p; idle_scale*p on idle data",
+        "p": 0.001,
+        "idle_scale": 0.0
+      },
+      "boundary": "initial encoded Bell state and initial Z prep perfect; Z prep at previous cycle end; two clean cycles; ideal logical/ref MPP",
+      "fault_model": "complete_undecomposed_dem_single_physical_Pauli_faults",
+      "num_detectors": 576,
+      "num_observables": 24,
+      "num_distinct_fault_responses": 17964,
+      "lower_bound": 6,
+      "upper_bound": 6,
+      "exact": true,
+      "certificates": [
+        {
+          "lower_bound": 4,
+          "method": "exact_weights_1_2_3",
+          "triple_complete": true,
+          "triple_seconds": 2.457484229998954
+        },
+        {
+          "lower_bound": 5,
+          "method": "exact_complete_CSS_projections_through_weight4",
+          "sectors": {
+            "X": {
+              "lower_bound": 5,
+              "complete": true,
+              "method": "exact_weight4_pair_enumeration",
+              "pair_syndromes": 2547378,
+              "seconds": 1.783213025002624
+            },
+            "Z": {
+              "lower_bound": 5,
+              "complete": true,
+              "method": "exact_weight4_pair_enumeration",
+              "pair_syndromes": 2466900,
+              "seconds": 1.5877636010045535
+            }
+          }
+        },
+        {
+          "lower_bound": 6,
+          "method": "exact_complete_CSS_projections_through_weight5",
+          "sectors": {
+            "X": {
+              "lower_bound": 6,
+              "complete": true,
+              "method": "exact_connected_weight5",
+              "assumption": "complete exclusion of all logical fault sets with weight<=4",
+              "triples_checked": 9132264,
+              "pair_syndromes": 2547378,
+              "seconds": 6.676537298997573
+            },
+            "Z": {
+              "lower_bound": 6,
+              "complete": true,
+              "method": "exact_connected_weight5",
+              "assumption": "complete exclusion of all logical fault sets with weight<=4",
+              "triples_checked": 9094176,
+              "pair_syndromes": 2466900,
+              "seconds": 6.824246853997465
+            }
+          }
+        }
+      ],
+      "witness": {
+        "weight_upper_bound": 6,
+        "logical_observables_flipped": [
+          3,
+          4
+        ],
+        "detector_parity_zero": true,
+        "dem_errors": "error(1) D435 D438 D444 L2 L3 L6 L7 L8 L9 L10 L11\nerror(1) D432 D441 D447 L0 L1 L3 L4 L5 L6 L7 L8 L11\nerror(1) D441 D444 D450 L1 L3 L4 L5 L6\nerror(1) D447 D450 D456 L1 L2 L3\nerror(1) D435 D456 D465 L1 L4 L5 L8 L9 L11\nerror(1) D432 D438 D465 L0 L3 L5 L6 L8 L10 L11",
+        "physical_errors": [
+          "ExplainedError {\n    dem_error_terms: D432[coords 0,1,6] D438[coords 6,1,6] D465[coords 33,1,6] L0 L3 L5 L6 L8 L10 L11\n    CircuitErrorLocation {\n        flipped_pauli_product: X30\n        Circuit location stack trace:\n            (after 45 TICKs)\n            at instruction #541 (DEPOLARIZE2) in the circuit\n            at targets #85 to #86 of the instruction\n            resolving to DEPOLARIZE2(0.001) 30 114\n    }\n}",
+          "ExplainedError {\n    dem_error_terms: D432[coords 0,1,6] D441[coords 9,1,6] D447[coords 15,1,6] L0 L1 L3 L4 L5 L6 L7 L8 L11\n    CircuitErrorLocation {\n        flipped_pauli_product: X3\n        Circuit location stack trace:\n            (after 45 TICKs)\n            at instruction #541 (DEPOLARIZE2) in the circuit\n            at targets #103 to #104 of the instruction\n            resolving to DEPOLARIZE2(0.001) 3 123\n    }\n}",
+          "ExplainedError {\n    dem_error_terms: D435[coords 3,1,6] D438[coords 6,1,6] D444[coords 12,1,6] L2 L3 L6 L7 L8 L9 L10 L11\n    CircuitErrorLocation {\n        flipped_pauli_product: X0\n        Circuit location stack trace:\n            (after 45 TICKs)\n            at instruction #541 (DEPOLARIZE2) in the circuit\n            at targets #97 to #98 of the instruction\n            resolving to DEPOLARIZE2(0.001) 0 120\n    }\n}",
+          "ExplainedError {\n    dem_error_terms: D435[coords 3,1,6] D456[coords 24,1,6] D465[coords 33,1,6] L1 L4 L5 L8 L9 L11\n    CircuitErrorLocation {\n        flipped_pauli_product: X27\n        Circuit location stack trace:\n            (after 45 TICKs)\n            at instruction #541 (DEPOLARIZE2) in the circuit\n            at targets #79 to #80 of the instruction\n            resolving to DEPOLARIZE2(0.001) 27 111\n    }\n}",
+          "ExplainedError {\n    dem_error_terms: D441[coords 9,1,6] D444[coords 12,1,6] D450[coords 18,1,6] L1 L3 L4 L5 L6\n    CircuitErrorLocation {\n        flipped_pauli_product: X6\n        Circuit location stack trace:\n            (after 45 TICKs)\n            at instruction #541 (DEPOLARIZE2) in the circuit\n            at targets #109 to #110 of the instruction\n            resolving to DEPOLARIZE2(0.001) 6 126\n    }\n}",
+          "ExplainedError {\n    dem_error_terms: D447[coords 15,1,6] D450[coords 18,1,6] D456[coords 24,1,6] L1 L2 L3\n    CircuitErrorLocation {\n        flipped_pauli_product: X12\n        Circuit location stack trace:\n            (after 45 TICKs)\n            at instruction #541 (DEPOLARIZE2) in the circuit\n            at targets #121 to #122 of the instruction\n            resolving to DEPOLARIZE2(0.001) 12 132\n    }\n}"
+        ],
+        "physical_location_keys": [
+          {
+            "tick_offset": 45,
+            "target_range_start": 84,
+            "target_range_end": 86,
+            "stack": [
+              [
+                540,
+                0
+              ]
+            ]
+          },
+          {
+            "tick_offset": 45,
+            "target_range_start": 102,
+            "target_range_end": 104,
+            "stack": [
+              [
+                540,
+                0
+              ]
+            ]
+          },
+          {
+            "tick_offset": 45,
+            "target_range_start": 96,
+            "target_range_end": 98,
+            "stack": [
+              [
+                540,
+                0
+              ]
+            ]
+          },
+          {
+            "tick_offset": 45,
+            "target_range_start": 78,
+            "target_range_end": 80,
+            "stack": [
+              [
+                540,
+                0
+              ]
+            ]
+          },
+          {
+            "tick_offset": 45,
+            "target_range_start": 108,
+            "target_range_end": 110,
+            "stack": [
+              [
+                540,
+                0
+              ]
+            ]
+          },
+          {
+            "tick_offset": 45,
+            "target_range_start": 120,
+            "target_range_end": 122,
+            "stack": [
+              [
+                540,
+                0
+              ]
+            ]
+          }
+        ],
+        "distinct_physical_locations": 6
+      },
+      "upper_bound_method": "static_logical_realized_at_last_noisy_CNOT_locations",
+      "method": "certified_lower_bound_and_explicit_physical_fault_witness",
+      "elapsed_seconds": 20.08153458599554
+    },
+    "surface7": {
+      "circuit_sha256": "96a08d94ec5dbd0b5a0341b34697159fa3e9f4bfcfdf66d6bc32dffb83bad5c9",
+      "rounds": 7,
+      "idle_scale": 0.0,
+      "schedule_sha256": "778587b86e7d5ebe8e75c3e3d1daaa1f7c8b73aa64aacd414467721c62e93e2e",
+      "schedule": {
+        "layers": [
+          [
+            [
+              "X",
+              0,
+              1
+            ],
+            [
+              "X",
+              6,
+              15
+            ],
+            [
+              "X",
+              12,
+              29
+            ],
+            [
+              "X",
+              18,
+              43
+            ],
+            [
+              "X",
+              3,
+              9
+            ],
+            [
+              "X",
+              9,
+              23
+            ],
+            [
+              "X",
+              15,
+              37
+            ],
+            [
+              "X",
+              1,
+              3
+            ],
+            [
+              "X",
+              7,
+              17
+            ],
+            [
+              "X",
+              13,
+              31
+            ],
+            [
+              "X",
+              19,
+              45
+            ],
+            [
+              "X",
+              4,
+              11
+            ],
+            [
+              "X",
+              10,
+              25
+            ],
+            [
+              "X",
+              16,
+              39
+            ],
+            [
+              "X",
+              2,
+              5
+            ],
+            [
+              "X",
+              8,
+              19
+            ],
+            [
+              "X",
+              14,
+              33
+            ],
+            [
+              "X",
+              20,
+              47
+            ],
+            [
+              "X",
+              5,
+              13
+            ],
+            [
+              "X",
+              11,
+              27
+            ],
+            [
+              "X",
+              17,
+              41
+            ],
+            [
+              "Z",
+              4,
+              14
+            ],
+            [
+              "Z",
+              12,
+              28
+            ],
+            [
+              "Z",
+              20,
+              42
+            ],
+            [
+              "Z",
+              0,
+              8
+            ],
+            [
+              "Z",
+              8,
+              22
+            ],
+            [
+              "Z",
+              16,
+              36
+            ],
+            [
+              "Z",
+              5,
+              16
+            ],
+            [
+              "Z",
+              13,
+              30
+            ],
+            [
+              "Z",
+              21,
+              44
+            ],
+            [
+              "Z",
+              1,
+              10
+            ],
+            [
+              "Z",
+              9,
+              24
+            ],
+            [
+              "Z",
+              17,
+              38
+            ],
+            [
+              "Z",
+              6,
+              18
+            ],
+            [
+              "Z",
+              14,
+              32
+            ],
+            [
+              "Z",
+              22,
+              46
+            ],
+            [
+              "Z",
+              2,
+              12
+            ],
+            [
+              "Z",
+              10,
+              26
+            ],
+            [
+              "Z",
+              18,
+              40
+            ],
+            [
+              "Z",
+              7,
+              20
+            ],
+            [
+              "Z",
+              15,
+              34
+            ],
+            [
+              "Z",
+              23,
+              48
+            ]
+          ],
+          [
+            [
+              "X",
+              0,
+              0
+            ],
+            [
+              "X",
+              6,
+              14
+            ],
+            [
+              "X",
+              12,
+              28
+            ],
+            [
+              "X",
+              18,
+              42
+            ],
+            [
+              "X",
+              3,
+              8
+            ],
+            [
+              "X",
+              9,
+              22
+            ],
+            [
+              "X",
+              15,
+              36
+            ],
+            [
+              "X",
+              1,
+              2
+            ],
+            [
+              "X",
+              7,
+              16
+            ],
+            [
+              "X",
+              13,
+              30
+            ],
+            [
+              "X",
+              19,
+              44
+            ],
+            [
+              "X",
+              4,
+              10
+            ],
+            [
+              "X",
+              10,
+              24
+            ],
+            [
+              "X",
+              16,
+              38
+            ],
+            [
+              "X",
+              2,
+              4
+            ],
+            [
+              "X",
+              8,
+              18
+            ],
+            [
+              "X",
+              14,
+              32
+            ],
+            [
+              "X",
+              20,
+              46
+            ],
+            [
+              "X",
+              5,
+              12
+            ],
+            [
+              "X",
+              11,
+              26
+            ],
+            [
+              "X",
+              17,
+              40
+            ],
+            [
+              "Z",
+              4,
+              7
+            ],
+            [
+              "Z",
+              12,
+              21
+            ],
+            [
+              "Z",
+              20,
+              35
+            ],
+            [
+              "Z",
+              0,
+              1
+            ],
+            [
+              "Z",
+              8,
+              15
+            ],
+            [
+              "Z",
+              16,
+              29
+            ],
+            [
+              "Z",
+              5,
+              9
+            ],
+            [
+              "Z",
+              13,
+              23
+            ],
+            [
+              "Z",
+              21,
+              37
+            ],
+            [
+              "Z",
+              1,
+              3
+            ],
+            [
+              "Z",
+              9,
+              17
+            ],
+            [
+              "Z",
+              17,
+              31
+            ],
+            [
+              "Z",
+              6,
+              11
+            ],
+            [
+              "Z",
+              14,
+              25
+            ],
+            [
+              "Z",
+              22,
+              39
+            ],
+            [
+              "Z",
+              2,
+              5
+            ],
+            [
+              "Z",
+              10,
+              19
+            ],
+            [
+              "Z",
+              18,
+              33
+            ],
+            [
+              "Z",
+              7,
+              13
+            ],
+            [
+              "Z",
+              15,
+              27
+            ],
+            [
+              "Z",
+              23,
+              41
+            ]
+          ],
+          [
+            [
+              "X",
+              6,
+              8
+            ],
+            [
+              "X",
+              12,
+              22
+            ],
+            [
+              "X",
+              18,
+              36
+            ],
+            [
+              "X",
+              3,
+              2
+            ],
+            [
+              "X",
+              9,
+              16
+            ],
+            [
+              "X",
+              15,
+              30
+            ],
+            [
+              "X",
+              21,
+              44
+            ],
+            [
+              "X",
+              7,
+              10
+            ],
+            [
+              "X",
+              13,
+              24
+            ],
+            [
+              "X",
+              19,
+              38
+            ],
+            [
+              "X",
+              4,
+              4
+            ],
+            [
+              "X",
+              10,
+              18
+            ],
+            [
+              "X",
+              16,
+              32
+            ],
+            [
+              "X",
+              22,
+              46
+            ],
+            [
+              "X",
+              8,
+              12
+            ],
+            [
+              "X",
+              14,
+              26
+            ],
+            [
+              "X",
+              20,
+              40
+            ],
+            [
+              "X",
+              5,
+              6
+            ],
+            [
+              "X",
+              11,
+              20
+            ],
+            [
+              "X",
+              17,
+              34
+            ],
+            [
+              "X",
+              23,
+              48
+            ],
+            [
+              "Z",
+              0,
+              7
+            ],
+            [
+              "Z",
+              8,
+              21
+            ],
+            [
+              "Z",
+              16,
+              35
+            ],
+            [
+              "Z",
+              5,
+              15
+            ],
+            [
+              "Z",
+              13,
+              29
+            ],
+            [
+              "Z",
+              21,
+              43
+            ],
+            [
+              "Z",
+              1,
+              9
+            ],
+            [
+              "Z",
+              9,
+              23
+            ],
+            [
+              "Z",
+              17,
+              37
+            ],
+            [
+              "Z",
+              6,
+              17
+            ],
+            [
+              "Z",
+              14,
+              31
+            ],
+            [
+              "Z",
+              22,
+              45
+            ],
+            [
+              "Z",
+              2,
+              11
+            ],
+            [
+              "Z",
+              10,
+              25
+            ],
+            [
+              "Z",
+              18,
+              39
+            ],
+            [
+              "Z",
+              7,
+              19
+            ],
+            [
+              "Z",
+              15,
+              33
+            ],
+            [
+              "Z",
+              23,
+              47
+            ],
+            [
+              "Z",
+              3,
+              13
+            ],
+            [
+              "Z",
+              11,
+              27
+            ],
+            [
+              "Z",
+              19,
+              41
+            ]
+          ],
+          [
+            [
+              "X",
+              6,
+              7
+            ],
+            [
+              "X",
+              12,
+              21
+            ],
+            [
+              "X",
+              18,
+              35
+            ],
+            [
+              "X",
+              3,
+              1
+            ],
+            [
+              "X",
+              9,
+              15
+            ],
+            [
+              "X",
+              15,
+              29
+            ],
+            [
+              "X",
+              21,
+              43
+            ],
+            [
+              "X",
+              7,
+              9
+            ],
+            [
+              "X",
+              13,
+              23
+            ],
+            [
+              "X",
+              19,
+              37
+            ],
+            [
+              "X",
+              4,
+              3
+            ],
+            [
+              "X",
+              10,
+              17
+            ],
+            [
+              "X",
+              16,
+              31
+            ],
+            [
+              "X",
+              22,
+              45
+            ],
+            [
+              "X",
+              8,
+              11
+            ],
+            [
+              "X",
+              14,
+              25
+            ],
+            [
+              "X",
+              20,
+              39
+            ],
+            [
+              "X",
+              5,
+              5
+            ],
+            [
+              "X",
+              11,
+              19
+            ],
+            [
+              "X",
+              17,
+              33
+            ],
+            [
+              "X",
+              23,
+              47
+            ],
+            [
+              "Z",
+              0,
+              0
+            ],
+            [
+              "Z",
+              8,
+              14
+            ],
+            [
+              "Z",
+              16,
+              28
+            ],
+            [
+              "Z",
+              5,
+              8
+            ],
+            [
+              "Z",
+              13,
+              22
+            ],
+            [
+              "Z",
+              21,
+              36
+            ],
+            [
+              "Z",
+              1,
+              2
+            ],
+            [
+              "Z",
+              9,
+              16
+            ],
+            [
+              "Z",
+              17,
+              30
+            ],
+            [
+              "Z",
+              6,
+              10
+            ],
+            [
+              "Z",
+              14,
+              24
+            ],
+            [
+              "Z",
+              22,
+              38
+            ],
+            [
+              "Z",
+              2,
+              4
+            ],
+            [
+              "Z",
+              10,
+              18
+            ],
+            [
+              "Z",
+              18,
+              32
+            ],
+            [
+              "Z",
+              7,
+              12
+            ],
+            [
+              "Z",
+              15,
+              26
+            ],
+            [
+              "Z",
+              23,
+              40
+            ],
+            [
+              "Z",
+              3,
+              6
+            ],
+            [
+              "Z",
+              11,
+              20
+            ],
+            [
+              "Z",
+              19,
+              34
+            ]
+          ]
+        ]
+      },
+      "noise": {
+        "model": "IBM depolarizing primitives; preparation and measurement p; CNOT p; idle_scale*p on idle data",
+        "p": 0.001,
+        "idle_scale": 0.0
+      },
+      "boundary": "initial encoded Bell state and initial Z prep perfect; Z prep at previous cycle end; two clean cycles; ideal logical/ref MPP",
+      "fault_model": "complete_undecomposed_dem_single_physical_Pauli_faults",
+      "num_detectors": 432,
+      "num_observables": 2,
+      "num_distinct_fault_responses": 6375,
+      "lower_bound": 7,
+      "upper_bound": 7,
+      "exact": true,
+      "certificates": [
+        {
+          "lower_bound": 4,
+          "method": "exact_weights_1_2_3",
+          "triple_complete": true,
+          "triple_seconds": 0.17748010099603562
+        },
+        {
+          "lower_bound": 7,
+          "sector_distances": {
+            "X": 7,
+            "Z": 7
+          },
+          "method": "exact_graphlike_observable_projections"
+        }
+      ],
+      "witness": {
+        "weight_upper_bound": 7,
+        "logical_observables_flipped": [
+          0
+        ],
+        "detector_parity_zero": true,
+        "dem_errors": "error(1) D336 L0\nerror(1) D336 D340\nerror(1) D340 D344\nerror(1) D344 D348\nerror(1) D348 D352\nerror(1) D352 D356\nerror(1) D356",
+        "physical_errors": [
+          "ExplainedError {\n    dem_error_terms: D336[coords 0,1,7] D340[coords 4,1,7]\n    CircuitErrorLocation {\n        flipped_pauli_product: X7\n        Circuit location stack trace:\n            (after 40 TICKs)\n            at instruction #469 (DEPOLARIZE2) in the circuit\n            at targets #43 to #44 of the instruction\n            resolving to DEPOLARIZE2(0.001) 7 73\n    }\n}",
+          "ExplainedError {\n    dem_error_terms: D336[coords 0,1,7] L0\n    CircuitErrorLocation {\n        flipped_pauli_product: X1\n        Circuit location stack trace:\n            (after 39 TICKs)\n            at instruction #466 (DEPOLARIZE2) in the circuit\n            at targets #49 to #50 of the instruction\n            resolving to DEPOLARIZE2(0.001) 1 73\n    }\n}",
+          "ExplainedError {\n    dem_error_terms: D340[coords 4,1,7] D344[coords 8,1,7]\n    CircuitErrorLocation {\n        flipped_pauli_product: X14\n        Circuit location stack trace:\n            (after 41 TICKs)\n            at instruction #472 (DEPOLARIZE2) in the circuit\n            at targets #45 to #46 of the instruction\n            resolving to DEPOLARIZE2(0.001) 14 81\n    }\n}",
+          "ExplainedError {\n    dem_error_terms: D344[coords 8,1,7] D348[coords 12,1,7]\n    CircuitErrorLocation {\n        flipped_pauli_product: X21\n        Circuit location stack trace:\n            (after 40 TICKs)\n            at instruction #469 (DEPOLARIZE2) in the circuit\n            at targets #45 to #46 of the instruction\n            resolving to DEPOLARIZE2(0.001) 21 81\n    }\n}",
+          "ExplainedError {\n    dem_error_terms: D348[coords 12,1,7] D352[coords 16,1,7]\n    CircuitErrorLocation {\n        flipped_pauli_product: X28\n        Circuit location stack trace:\n            (after 41 TICKs)\n            at instruction #472 (DEPOLARIZE2) in the circuit\n            at targets #47 to #48 of the instruction\n            resolving to DEPOLARIZE2(0.001) 28 89\n    }\n}",
+          "ExplainedError {\n    dem_error_terms: D352[coords 16,1,7] D356[coords 20,1,7]\n    CircuitErrorLocation {\n        flipped_pauli_product: X35\n        Circuit location stack trace:\n            (after 40 TICKs)\n            at instruction #469 (DEPOLARIZE2) in the circuit\n            at targets #47 to #48 of the instruction\n            resolving to DEPOLARIZE2(0.001) 35 89\n    }\n}",
+          "ExplainedError {\n    dem_error_terms: D356[coords 20,1,7]\n    CircuitErrorLocation {\n        flipped_pauli_product: X42\n        Circuit location stack trace:\n            (after 38 TICKs)\n            at instruction #463 (DEPOLARIZE2) in the circuit\n            at targets #47 to #48 of the instruction\n            resolving to DEPOLARIZE2(0.001) 42 93\n    }\n}"
+        ],
+        "physical_location_keys": [
+          {
+            "tick_offset": 40,
+            "target_range_start": 42,
+            "target_range_end": 44,
+            "stack": [
+              [
+                468,
+                0
+              ]
+            ]
+          },
+          {
+            "tick_offset": 39,
+            "target_range_start": 48,
+            "target_range_end": 50,
+            "stack": [
+              [
+                465,
+                0
+              ]
+            ]
+          },
+          {
+            "tick_offset": 41,
+            "target_range_start": 44,
+            "target_range_end": 46,
+            "stack": [
+              [
+                471,
+                0
+              ]
+            ]
+          },
+          {
+            "tick_offset": 40,
+            "target_range_start": 44,
+            "target_range_end": 46,
+            "stack": [
+              [
+                468,
+                0
+              ]
+            ]
+          },
+          {
+            "tick_offset": 41,
+            "target_range_start": 46,
+            "target_range_end": 48,
+            "stack": [
+              [
+                471,
+                0
+              ]
+            ]
+          },
+          {
+            "tick_offset": 40,
+            "target_range_start": 46,
+            "target_range_end": 48,
+            "stack": [
+              [
+                468,
+                0
+              ]
+            ]
+          },
+          {
+            "tick_offset": 38,
+            "target_range_start": 46,
+            "target_range_end": 48,
+            "stack": [
+              [
+                462,
+                0
+              ]
+            ]
+          }
+        ],
+        "distinct_physical_locations": 7
+      },
+      "upper_bound_method": "static_logical_realized_at_last_noisy_CNOT_locations",
+      "method": "certified_lower_bound_and_explicit_physical_fault_witness",
+      "elapsed_seconds": 0.2591465570003493
+    }
+  }
+}

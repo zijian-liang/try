@@ -1,0 +1,4865 @@
+{
+  "schema_version": 1,
+  "purpose": "Seed schedule orders only; every schedule must be audited again under this campaign R=7 circuit and noise boundaries.",
+  "historical_bounds_warning": "A returned upper bound of 6 or 7 does not establish a distance of at least 6. No old distance result is a certificate for this scan.",
+  "seeds": [
+    {
+      "schedule": {
+        "x": [
+          2,
+          null,
+          6,
+          3,
+          5,
+          4,
+          0,
+          1
+        ],
+        "z": [
+          4,
+          5,
+          1,
+          2,
+          0,
+          3,
+          6,
+          null
+        ]
+      },
+      "schedule_sha256": "1775748ab9fe7bf5cd97c9ef8db0b3aece8d184a228bbd407759fd4b00adc246",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          0,
+          3,
+          5,
+          4,
+          6,
+          1,
+          null
+        ],
+        "z": [
+          5,
+          null,
+          2,
+          3,
+          1,
+          0,
+          4,
+          6
+        ]
+      },
+      "schedule_sha256": "f26a8d12f8508d2e68c347073e4094a6531faa12ab23445aaf3db05d565504c0",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          5,
+          3,
+          null,
+          2,
+          4,
+          6,
+          0
+        ],
+        "z": [
+          4,
+          1,
+          null,
+          3,
+          6,
+          0,
+          2,
+          5
+        ]
+      },
+      "schedule_sha256": "af31a9705197190e826aafa2862153cf3f73229b812bde66f631704b4ab57938",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          null,
+          4,
+          3,
+          5,
+          6,
+          0,
+          1
+        ],
+        "z": [
+          5,
+          4,
+          2,
+          0,
+          1,
+          3,
+          null,
+          6
+        ]
+      },
+      "schedule_sha256": "8a67968dc53476083fd313269cca42814a5c5b78987582f46e3666d1fb61d2e9",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          null,
+          3,
+          6,
+          5,
+          4,
+          1,
+          2
+        ],
+        "z": [
+          6,
+          5,
+          0,
+          1,
+          3,
+          2,
+          null,
+          4
+        ]
+      },
+      "schedule_sha256": "a59e430d4363b02cf8dbbdf54e1e914423f2835282d871d2a67319d9f5b6cc51",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": true,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          0,
+          3,
+          4,
+          5,
+          6,
+          null,
+          1
+        ],
+        "z": [
+          null,
+          5,
+          0,
+          2,
+          3,
+          1,
+          4,
+          6
+        ]
+      },
+      "schedule_sha256": "91236bbade4c75e3b3c797d86cd2abce29f7325d3e6c17989dc98f5b80fdb33e",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          6,
+          1,
+          null,
+          5,
+          4,
+          2,
+          0,
+          3
+        ],
+        "z": [
+          0,
+          4,
+          6,
+          1,
+          2,
+          5,
+          null,
+          3
+        ]
+      },
+      "schedule_sha256": "517340d9af58fd729a4b72a30a5eed3434bc46fb3969718c080c48a82104e23f",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          3,
+          null,
+          4,
+          6,
+          2,
+          5,
+          1
+        ],
+        "z": [
+          5,
+          2,
+          6,
+          1,
+          3,
+          null,
+          0,
+          4
+        ]
+      },
+      "schedule_sha256": "633c618417e4b3a79f869b9f7c31ac3d512961d4a7b9654eb7554ce4c0723ed7",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          null,
+          4,
+          3,
+          5,
+          6,
+          2,
+          0
+        ],
+        "z": [
+          6,
+          4,
+          0,
+          2,
+          1,
+          3,
+          5,
+          null
+        ]
+      },
+      "schedule_sha256": "ba88819aec2b4af80d79c55e45177274748b33a02ee1f73c7568e463eda7bf15",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          2,
+          5,
+          4,
+          6,
+          3,
+          null,
+          0
+        ],
+        "z": [
+          null,
+          4,
+          1,
+          0,
+          2,
+          3,
+          5,
+          6
+        ]
+      },
+      "schedule_sha256": "9d899a9398fef3bd86e3682ae32f39eae3675d90268903d6d55828f93ea0227d",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          1,
+          4,
+          3,
+          5,
+          6,
+          2,
+          null
+        ],
+        "z": [
+          6,
+          null,
+          2,
+          1,
+          3,
+          0,
+          4,
+          5
+        ]
+      },
+      "schedule_sha256": "558803c38e91ae0489d5d8a2ef1ec2e54de65f43b9b8497470edcc740f4482fc",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": true,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          null,
+          6,
+          3,
+          5,
+          4,
+          1,
+          0
+        ],
+        "z": [
+          5,
+          4,
+          1,
+          0,
+          3,
+          2,
+          6,
+          null
+        ]
+      },
+      "schedule_sha256": "6eb896b221ca604e770817802a838620888d9bb73813fbfb4c1fc338202c47fa",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          null,
+          3,
+          6,
+          4,
+          5,
+          2,
+          0
+        ],
+        "z": [
+          6,
+          4,
+          3,
+          2,
+          0,
+          1,
+          null,
+          5
+        ]
+      },
+      "schedule_sha256": "4d507c0e80fae9212b1e77b6cb179bb21a028791ec88d2892875ba882fb5936a",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          0,
+          5,
+          4,
+          6,
+          3,
+          2,
+          1
+        ],
+        "z": [
+          6,
+          5,
+          3,
+          1,
+          0,
+          2,
+          null,
+          4
+        ]
+      },
+      "schedule_sha256": "8a9c776c0cfaf13b5fa39356fafb7e10012044b0224abc7f772931b608396c28",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          null,
+          3,
+          4,
+          5,
+          6,
+          2,
+          1
+        ],
+        "z": [
+          6,
+          5,
+          2,
+          3,
+          1,
+          0,
+          4,
+          null
+        ]
+      },
+      "schedule_sha256": "5e51f062a850e980ef860b31441703b2055777cad52831dd5686ec9771a5aaf2",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          null,
+          5,
+          4,
+          3,
+          6,
+          1,
+          2
+        ],
+        "z": [
+          5,
+          6,
+          2,
+          1,
+          3,
+          0,
+          4,
+          null
+        ]
+      },
+      "schedule_sha256": "a0149c1db5c0b7371e555cce889f3f9325385bba629b943dd883c2ffa238552f",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          1,
+          3,
+          5,
+          6,
+          4,
+          null,
+          2
+        ],
+        "z": [
+          6,
+          null,
+          1,
+          3,
+          2,
+          0,
+          4,
+          5
+        ]
+      },
+      "schedule_sha256": "0cd8740ce8f892b5ba074b0ea11e8992ce1456f018f7ab16ee8ce2feaf3ecaf2",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          6,
+          1,
+          4,
+          3,
+          null,
+          5,
+          0
+        ],
+        "z": [
+          4,
+          2,
+          null,
+          1,
+          3,
+          5,
+          0,
+          6
+        ]
+      },
+      "schedule_sha256": "75a00a08de8fd18fbfbbe2291e667992262bbd67694e1456c48ddc6e29f562a8",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          0,
+          6,
+          3,
+          5,
+          4,
+          null,
+          2
+        ],
+        "z": [
+          6,
+          null,
+          0,
+          1,
+          3,
+          2,
+          4,
+          5
+        ]
+      },
+      "schedule_sha256": "e0bd105026b12d3245afda66e0dfb735c3b34bb8a15fec55093e6bedfccba16e",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          0,
+          null
+        ],
+        "z": [
+          4,
+          null,
+          0,
+          1,
+          2,
+          3,
+          5,
+          6
+        ]
+      },
+      "schedule_sha256": "1cab7c08227ca7527e3864ce6b96a33a4da4537eeed1809ddef8669d18aeee37",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          1,
+          4,
+          6,
+          5,
+          3,
+          0,
+          2
+        ],
+        "z": [
+          6,
+          4,
+          3,
+          2,
+          0,
+          1,
+          null,
+          5
+        ]
+      },
+      "schedule_sha256": "cc64fe83955d5fa97b8b692bd0b39cfff0a4b0bbd284b0323fcdde491319eaa8",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          null,
+          5,
+          6,
+          3,
+          4,
+          0,
+          1
+        ],
+        "z": [
+          4,
+          5,
+          2,
+          3,
+          1,
+          0,
+          6,
+          null
+        ]
+      },
+      "schedule_sha256": "189cc0e985af45fe3723c11b97c59b77641132ee0d39adfc18425d95208cc4b3",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          5,
+          3,
+          2,
+          4,
+          6,
+          null,
+          0
+        ],
+        "z": [
+          4,
+          1,
+          3,
+          6,
+          0,
+          2,
+          5,
+          null
+        ]
+      },
+      "schedule_sha256": "3f90ec53bbcd0dcb81bd17b6321f99ec932f988d9d2f24dda17da6b594722e80",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          null,
+          6,
+          4,
+          3,
+          5,
+          0,
+          1
+        ],
+        "z": [
+          4,
+          5,
+          2,
+          1,
+          0,
+          3,
+          6,
+          null
+        ]
+      },
+      "schedule_sha256": "10b59dbc90a2959c1c8bfc590b2b2f26d043a6d5f22aae94cb7a1445d5fd5557",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          0,
+          4,
+          5,
+          3,
+          6,
+          null,
+          2
+        ],
+        "z": [
+          6,
+          null,
+          2,
+          3,
+          0,
+          1,
+          5,
+          4
+        ]
+      },
+      "schedule_sha256": "b535ef088bf23dd677cb23d43f427e5ab3009079552e6f4f66ca40123ad210cd",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          2,
+          4,
+          3,
+          6,
+          5,
+          1,
+          null
+        ],
+        "z": [
+          null,
+          5,
+          0,
+          1,
+          3,
+          2,
+          6,
+          4
+        ]
+      },
+      "schedule_sha256": "47d4fd6cbb4497c2834ec469d55b4b52227d36e73356835277641147d2807c9a",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          1,
+          6,
+          5,
+          3,
+          4,
+          2,
+          0
+        ],
+        "z": [
+          4,
+          6,
+          0,
+          3,
+          1,
+          2,
+          5,
+          null
+        ]
+      },
+      "schedule_sha256": "8d9348e4906329662063b2a9c109f2b2a3676c70f68a792ae3ce2912dc1dfbf8",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          1,
+          3,
+          6,
+          4,
+          5,
+          0,
+          2
+        ],
+        "z": [
+          4,
+          6,
+          3,
+          0,
+          1,
+          2,
+          5,
+          null
+        ]
+      },
+      "schedule_sha256": "82daac8e748aaca2fe7d1bfefedd29c5bea610b29571c8f2caf066e39bd9727e",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          5,
+          6,
+          null,
+          1,
+          3,
+          4,
+          2
+        ],
+        "z": [
+          6,
+          1,
+          0,
+          5,
+          null,
+          2,
+          3,
+          4
+        ]
+      },
+      "schedule_sha256": "13ea2e2082b7bc36f00a5d0a27ad55461387eedeeeb47b17fc006e13ea6527e3",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          null,
+          5,
+          4,
+          3,
+          6,
+          2,
+          0
+        ],
+        "z": [
+          4,
+          6,
+          3,
+          0,
+          1,
+          2,
+          5,
+          null
+        ]
+      },
+      "schedule_sha256": "c48faa641576c164aeb8f64d222e2c968b2ae9b0255b510a8f789932124d2789",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          5,
+          null,
+          6,
+          4,
+          0,
+          3,
+          1
+        ],
+        "z": [
+          5,
+          1,
+          4,
+          3,
+          0,
+          null,
+          2,
+          6
+        ]
+      },
+      "schedule_sha256": "09701b2516f24d872b205c7d8f7747812b6c3de34d3c4205196f3718d4c41337",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          0,
+          6,
+          5,
+          4,
+          3,
+          null,
+          2
+        ],
+        "z": [
+          null,
+          6,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "schedule_sha256": "04431a0f8f8a364056624419a4cffeb4bc37ea216fd4678e9266ef4543281f8e",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          1,
+          6,
+          4,
+          5,
+          3,
+          0,
+          null
+        ],
+        "z": [
+          null,
+          4,
+          0,
+          3,
+          2,
+          1,
+          6,
+          5
+        ]
+      },
+      "schedule_sha256": "d81c3007947bd10cdbd77fe6df42fee86c84541619fdddaf9cdad8ef746825b9",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          0,
+          6,
+          5,
+          3,
+          4,
+          1,
+          2
+        ],
+        "z": [
+          5,
+          6,
+          0,
+          2,
+          3,
+          1,
+          4,
+          null
+        ]
+      },
+      "schedule_sha256": "f4e22d55761b93b5b7fa365e0ab4d0d541cf25d4c9aca37b993e28d76f19269d",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          3,
+          1,
+          2,
+          4,
+          5,
+          0,
+          null,
+          6
+        ],
+        "z": [
+          3,
+          4,
+          null,
+          1,
+          2,
+          6,
+          5,
+          0
+        ]
+      },
+      "schedule_sha256": "3580eea318f7ea9ace36bb5146cbb9b190e1ba3b29821e972e4968739fa856e9",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          0,
+          5,
+          3,
+          4,
+          6,
+          2,
+          1
+        ],
+        "z": [
+          6,
+          5,
+          0,
+          3,
+          1,
+          2,
+          null,
+          4
+        ]
+      },
+      "schedule_sha256": "3201cefa799fb5eb02899b66cf221592630389371be7a52b420d0527fa75f7bb",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          null,
+          6,
+          3,
+          4,
+          5,
+          0,
+          2
+        ],
+        "z": [
+          6,
+          4,
+          0,
+          3,
+          1,
+          2,
+          5,
+          null
+        ]
+      },
+      "schedule_sha256": "1602ff9d61086cbe4e1624e387f6929fb093826bf68d19b5d55efea068524d51",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          2,
+          3,
+          5,
+          6,
+          4,
+          1,
+          0
+        ],
+        "z": [
+          5,
+          4,
+          0,
+          1,
+          3,
+          2,
+          null,
+          6
+        ]
+      },
+      "schedule_sha256": "215be26722e38289e0e9a3f18c9ca0eeec11434a7c28f531479eae60f0155b50",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": true,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          null,
+          5,
+          4,
+          3,
+          6,
+          2,
+          0
+        ],
+        "z": [
+          4,
+          6,
+          2,
+          0,
+          1,
+          3,
+          5,
+          null
+        ]
+      },
+      "schedule_sha256": "09313c5dff1584870790e0ee54ee378a1bd3f2e692a1cf7811893d52f59ab358",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          4,
+          1,
+          3,
+          0,
+          2,
+          5,
+          null,
+          6
+        ],
+        "z": [
+          3,
+          null,
+          2,
+          6,
+          4,
+          0,
+          5,
+          1
+        ]
+      },
+      "schedule_sha256": "437721df7932d762858066d6583f762fdde8d251f056337c2a3c2b87e28c26aa",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          2,
+          5,
+          6,
+          3,
+          4,
+          1,
+          null
+        ],
+        "z": [
+          null,
+          5,
+          3,
+          2,
+          1,
+          0,
+          4,
+          6
+        ]
+      },
+      "schedule_sha256": "3fedaab134d21b92cb5d47efba280b3bf913a95f02e3538e10eca8905aa63908",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          0,
+          5,
+          6,
+          3,
+          4,
+          2,
+          1
+        ],
+        "z": [
+          6,
+          5,
+          3,
+          2,
+          0,
+          1,
+          4,
+          null
+        ]
+      },
+      "schedule_sha256": "9e4d4ad0009c557094947686efeefcaf127bb01bb4dd4052f3e3486217e8f047",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": true,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          2,
+          3,
+          6,
+          4,
+          5,
+          1,
+          null
+        ],
+        "z": [
+          null,
+          5,
+          1,
+          0,
+          2,
+          3,
+          6,
+          4
+        ]
+      },
+      "schedule_sha256": "4c4fb6c67ebc1f776cc7c3446ee6f629b92be5bd504af609be55be87db5e8c38",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": true,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          0,
+          4,
+          6,
+          3,
+          5,
+          1,
+          2
+        ],
+        "z": [
+          5,
+          6,
+          1,
+          0,
+          3,
+          2,
+          null,
+          4
+        ]
+      },
+      "schedule_sha256": "bfb52e74490acf72a0c5712fcb48498182ee69efe471a65983089c886b3230b7",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          0,
+          4,
+          5,
+          6,
+          3,
+          null,
+          1
+        ],
+        "z": [
+          null,
+          5,
+          3,
+          1,
+          0,
+          2,
+          4,
+          6
+        ]
+      },
+      "schedule_sha256": "75da62dff09af432bed666e7b9106bd2c25c527a4acd242d33ead0936fc7d651",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          0,
+          3,
+          4,
+          6,
+          5,
+          2,
+          1
+        ],
+        "z": [
+          5,
+          6,
+          1,
+          0,
+          3,
+          2,
+          null,
+          4
+        ]
+      },
+      "schedule_sha256": "cffe7db568efbf3151e2456505a47e2abdef581744259533cc9978002503fe2b",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          3,
+          2,
+          6,
+          1,
+          null,
+          4,
+          0,
+          5
+        ],
+        "z": [
+          2,
+          4,
+          1,
+          null,
+          5,
+          3,
+          6,
+          0
+        ]
+      },
+      "schedule_sha256": "33b6b5607eba9df72cce9628a72a790aa175a2aa6f95fd9b0c08ca757103f014",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          2,
+          4,
+          6,
+          5,
+          3,
+          null,
+          0
+        ],
+        "z": [
+          null,
+          4,
+          1,
+          2,
+          0,
+          3,
+          5,
+          6
+        ]
+      },
+      "schedule_sha256": "37e48f5b8159e0c6b3816a4cae677557273a5a611ed1f2ef21f1585c019265d8",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          1,
+          4,
+          5,
+          6,
+          3,
+          0,
+          2
+        ],
+        "z": [
+          4,
+          6,
+          0,
+          1,
+          2,
+          3,
+          5,
+          null
+        ]
+      },
+      "schedule_sha256": "5bbdcae83d82c2950346cea73d1f19744ffcfac7c5f293c93593e370edfbad6c",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          6,
+          0,
+          3,
+          5,
+          2,
+          4,
+          null
+        ],
+        "z": [
+          null,
+          1,
+          6,
+          0,
+          2,
+          4,
+          3,
+          5
+        ]
+      },
+      "schedule_sha256": "948fa2af4141b661262a776cbe912315cebf652f531366274cab41728053b746",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          0,
+          6,
+          3,
+          5,
+          4,
+          2,
+          1
+        ],
+        "z": [
+          6,
+          5,
+          1,
+          3,
+          2,
+          0,
+          null,
+          4
+        ]
+      },
+      "schedule_sha256": "fd14ebb60af43ee987e195d227dcda127a753d5ab55545390f2471da41db3bc3",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          2,
+          3,
+          6,
+          5,
+          4,
+          0,
+          null
+        ],
+        "z": [
+          4,
+          null,
+          0,
+          2,
+          1,
+          3,
+          5,
+          6
+        ]
+      },
+      "schedule_sha256": "3d9c70b47eb8e5c9feaf329fa94d9288a03b8b5ca031126e611188f6c69e3238",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          6,
+          5,
+          1,
+          4,
+          3,
+          2,
+          null
+        ],
+        "z": [
+          6,
+          0,
+          1,
+          5,
+          2,
+          3,
+          null,
+          4
+        ]
+      },
+      "schedule_sha256": "9aa3066cedc9a17ba4aefb2bb631ada03e252cd5e52d79cdc89ed7272e154fff",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          1,
+          5,
+          4,
+          6,
+          3,
+          null,
+          0
+        ],
+        "z": [
+          null,
+          4,
+          0,
+          2,
+          1,
+          3,
+          5,
+          6
+        ]
+      },
+      "schedule_sha256": "64ed9c3703ead2109d86e62393a726cd1aa91c701a6c1170e8d7d91b62bff06a",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": true,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          1,
+          3,
+          6,
+          5,
+          4,
+          0,
+          2
+        ],
+        "z": [
+          4,
+          6,
+          1,
+          2,
+          3,
+          0,
+          5,
+          null
+        ]
+      },
+      "schedule_sha256": "c6257e94e5aeaaed8d08a7a2d4398af34c5bc36d6bd518fba397781b8ef7a4fb",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          0,
+          4,
+          3,
+          5,
+          6,
+          1,
+          2
+        ],
+        "z": [
+          6,
+          5,
+          1,
+          0,
+          3,
+          2,
+          4,
+          null
+        ]
+      },
+      "schedule_sha256": "3e4ce972c9fd4fed5af653fc3c0cec13222207d9b75986af890f56ca8d4bfd6a",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          0,
+          3,
+          6,
+          5,
+          4,
+          1,
+          null
+        ],
+        "z": [
+          null,
+          5,
+          3,
+          0,
+          2,
+          1,
+          6,
+          4
+        ]
+      },
+      "schedule_sha256": "c8af06c5b94d55f030d7551b594ffb7e548e6ac97f90ab6d2b6176dbaf353536",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          0,
+          4,
+          3,
+          6,
+          5,
+          2,
+          1
+        ],
+        "z": [
+          5,
+          6,
+          2,
+          1,
+          0,
+          3,
+          4,
+          null
+        ]
+      },
+      "schedule_sha256": "4e56c15340b95d5d058f3afc9f505e84703dd5de4f056bf771e0920567b5c89c",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 7,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          3,
+          0,
+          5,
+          2,
+          null,
+          4,
+          1,
+          6
+        ],
+        "z": [
+          3,
+          5,
+          1,
+          6,
+          2,
+          null,
+          4,
+          0
+        ]
+      },
+      "schedule_sha256": "e667302ffb4436c43d33e62df18b7d92faad69cc75684cd4f3e1eb508088fbd0",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          null,
+          5,
+          6,
+          3,
+          4,
+          2,
+          1
+        ],
+        "z": [
+          6,
+          5,
+          1,
+          2,
+          3,
+          0,
+          null,
+          4
+        ]
+      },
+      "schedule_sha256": "23f3a106ed9f605c1952c62e12130cec34e23d6884b6e8264e37242c0ceacc1b",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          null,
+          4,
+          3,
+          5,
+          6,
+          2,
+          0
+        ],
+        "z": [
+          4,
+          6,
+          1,
+          3,
+          0,
+          2,
+          5,
+          null
+        ]
+      },
+      "schedule_sha256": "c5105a1e5f9197979a34374928af460e69ed166b53b7f9621359755defb86233",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 7,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          null,
+          6,
+          5,
+          4,
+          3,
+          1,
+          2
+        ],
+        "z": [
+          6,
+          5,
+          0,
+          3,
+          1,
+          2,
+          null,
+          4
+        ]
+      },
+      "schedule_sha256": "bfd1098e67849dd71cb45cd26aaa616e1013fed2eff125c472206746e40a30b0",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          null,
+          6,
+          5,
+          3,
+          4,
+          1,
+          0
+        ],
+        "z": [
+          5,
+          4,
+          1,
+          3,
+          0,
+          2,
+          null,
+          6
+        ]
+      },
+      "schedule_sha256": "1b39e55927d718085e4f0db1abffba3f970ee51c172b83d2591467598731a5a3",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          null,
+          3,
+          6,
+          4,
+          5,
+          2,
+          0
+        ],
+        "z": [
+          6,
+          4,
+          0,
+          3,
+          2,
+          1,
+          5,
+          null
+        ]
+      },
+      "schedule_sha256": "2b477958ec61dd15590234456fd76a8ed071da30a620a84795950230aa20d9e2",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 7,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          null,
+          4,
+          5,
+          3,
+          6,
+          0,
+          2
+        ],
+        "z": [
+          6,
+          4,
+          3,
+          0,
+          1,
+          2,
+          5,
+          null
+        ]
+      },
+      "schedule_sha256": "3d3041cc39e84e7c0d2cb99fed721311b5636e3b3a1530dada53efe54c28735e",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          1,
+          5,
+          6,
+          3,
+          4,
+          null,
+          2
+        ],
+        "z": [
+          6,
+          null,
+          1,
+          0,
+          2,
+          3,
+          5,
+          4
+        ]
+      },
+      "schedule_sha256": "539a429a9e0a1907580c7bd9487ec9cef8eaa154ba4693c7badd3a90cd15bfed",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          null,
+          6,
+          5,
+          4,
+          3,
+          0,
+          2
+        ],
+        "z": [
+          6,
+          4,
+          0,
+          3,
+          2,
+          1,
+          null,
+          5
+        ]
+      },
+      "schedule_sha256": "723dc3b0c43bc5c4a65a51f9c6feffe1975dc926b8ec3211f57e9014b0ac8566",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          0,
+          4,
+          3,
+          5,
+          6,
+          2,
+          null
+        ],
+        "z": [
+          6,
+          null,
+          3,
+          0,
+          2,
+          1,
+          4,
+          5
+        ]
+      },
+      "schedule_sha256": "68f60bd0ac43d2b58a08eee32458f0e69e94fcf67f10c6b8c1182698d6d561c2",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          0,
+          5,
+          6,
+          3,
+          4,
+          null,
+          1
+        ],
+        "z": [
+          5,
+          null,
+          3,
+          1,
+          0,
+          2,
+          4,
+          6
+        ]
+      },
+      "schedule_sha256": "055e6bc6fa60714e51e766d1e70cfc92f5d090a45848732f2eaa2e69feca7f82",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          1,
+          4,
+          3,
+          5,
+          6,
+          0,
+          2
+        ],
+        "z": [
+          6,
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          null
+        ]
+      },
+      "schedule_sha256": "1f8ac894885950a119110aeeed76c87928b33cc2f8d13a41d457bd4b2728962e",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          1,
+          4,
+          3,
+          5,
+          6,
+          2,
+          null
+        ],
+        "z": [
+          null,
+          6,
+          2,
+          0,
+          3,
+          1,
+          4,
+          5
+        ]
+      },
+      "schedule_sha256": "8d6663d0261232d7bdab4d33f24afdb7bef2789daebba2d1e2e2ddd125661705",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          1,
+          4,
+          6,
+          3,
+          5,
+          null,
+          0
+        ],
+        "z": [
+          4,
+          null,
+          3,
+          2,
+          1,
+          0,
+          5,
+          6
+        ]
+      },
+      "schedule_sha256": "de830a7e880e2c2d194ef553d851a292ed5c803c92e5e6d1355af5b7b957261e",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          2,
+          4,
+          3,
+          5,
+          6,
+          0,
+          1
+        ],
+        "z": [
+          5,
+          4,
+          1,
+          2,
+          0,
+          3,
+          6,
+          null
+        ]
+      },
+      "schedule_sha256": "bb4c5faa4bdddfea073bd345cc815edf72082bfa1d9c3b906278cff3505b549e",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          null,
+          6,
+          5,
+          4,
+          3,
+          2,
+          0
+        ],
+        "z": [
+          6,
+          4,
+          3,
+          1,
+          2,
+          0,
+          5,
+          null
+        ]
+      },
+      "schedule_sha256": "9c985fac1de5560f33dba896ee34617efcfd1d50a87cee6750fe3334f18cd701",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          2,
+          3,
+          5,
+          4,
+          6,
+          1,
+          0
+        ],
+        "z": [
+          4,
+          5,
+          2,
+          0,
+          3,
+          1,
+          6,
+          null
+        ]
+      },
+      "schedule_sha256": "d4168a22d247ce60e35f5a768aa5a46c1337c5ec5c930ec9bbd6dd9e99bb14e1",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 7,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          5,
+          null,
+          6,
+          0,
+          3,
+          4,
+          1
+        ],
+        "z": [
+          5,
+          null,
+          1,
+          0,
+          4,
+          2,
+          3,
+          6
+        ]
+      },
+      "schedule_sha256": "2f03fbd0afa373ae6acb28691edb90df8b3834ab133ef6eb736687c96dc8927b",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          4,
+          1,
+          3,
+          5,
+          null,
+          6,
+          0
+        ],
+        "z": [
+          4,
+          3,
+          null,
+          2,
+          1,
+          5,
+          0,
+          6
+        ]
+      },
+      "schedule_sha256": "6dc83cb4c2b8fb90bbf3226b333dc21f9191185bf69b35d715eaf3c4ba707d7a",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          null,
+          5,
+          4,
+          3,
+          6,
+          2,
+          1
+        ],
+        "z": [
+          5,
+          6,
+          0,
+          2,
+          1,
+          3,
+          4,
+          null
+        ]
+      },
+      "schedule_sha256": "96179dcdc0fd89c807d9c1796d2624a7a51df8ebe8544aacdbc33460dcf61af9",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          4,
+          3,
+          null,
+          1,
+          5,
+          6,
+          0
+        ],
+        "z": [
+          4,
+          3,
+          2,
+          5,
+          null,
+          0,
+          1,
+          6
+        ]
+      },
+      "schedule_sha256": "aa79cbeec7823f9f4aa63b30d3893337a71bc7dd1c54f0f66a7f2171a8aba0e5",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          null,
+          null,
+          6,
+          4,
+          3,
+          5,
+          1,
+          0
+        ],
+        "z": [
+          4,
+          5,
+          1,
+          2,
+          null,
+          0,
+          3,
+          6,
+          null
+        ]
+      },
+      "schedule_sha256": "0696af2cf68cf94504572abc5134802ad2163b0ca52a7e870d3cc7414b3debd7",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          null,
+          0,
+          6,
+          3,
+          4,
+          5,
+          1,
+          null
+        ],
+        "z": [
+          null,
+          5,
+          null,
+          1,
+          3,
+          0,
+          2,
+          6,
+          4
+        ]
+      },
+      "schedule_sha256": "492d0775a4a9ca698cb18f655c3f32b85ec03b65d5f953bdab3ff31555e1ad1d",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          2,
+          3,
+          5,
+          4,
+          6,
+          null,
+          null,
+          1
+        ],
+        "z": [
+          null,
+          5,
+          0,
+          1,
+          2,
+          3,
+          6,
+          4,
+          null
+        ]
+      },
+      "schedule_sha256": "a56dd90f9a99f69014881891731f1137dd5df8209dfe005cef08ab82decd147c",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 7,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          null,
+          null,
+          6,
+          3,
+          1,
+          4,
+          5,
+          0
+        ],
+        "z": [
+          null,
+          4,
+          1,
+          null,
+          2,
+          5,
+          0,
+          3,
+          6
+        ]
+      },
+      "schedule_sha256": "05ee60d4c2d8be640ca2be1c3b59bd009368d33497dd8f7f36be0df37898415b",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          2,
+          6,
+          3,
+          4,
+          null,
+          5,
+          1,
+          0
+        ],
+        "z": [
+          5,
+          4,
+          0,
+          2,
+          1,
+          3,
+          null,
+          6,
+          null
+        ]
+      },
+      "schedule_sha256": "6113e0a05a66c486bc2bc31dd2faa6aba16111026080fd5dd0c4b0e93955739e",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          1,
+          null,
+          5,
+          4,
+          3,
+          6,
+          2,
+          0
+        ],
+        "z": [
+          6,
+          null,
+          4,
+          3,
+          0,
+          2,
+          1,
+          5,
+          null
+        ]
+      },
+      "schedule_sha256": "c6b1cb97f9fe0dad67cc6400243d75e2ac6717c30b5951491def9022a521d058",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          3,
+          0,
+          6,
+          5,
+          4,
+          null,
+          1,
+          null
+        ],
+        "z": [
+          5,
+          null,
+          null,
+          3,
+          2,
+          0,
+          1,
+          6,
+          4
+        ]
+      },
+      "schedule_sha256": "7f35e2f886e22597253778cfe46ca84099063dd381347a82645b2c8e290f4639",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          0,
+          null,
+          4,
+          6,
+          3,
+          5,
+          2,
+          1
+        ],
+        "z": [
+          6,
+          null,
+          5,
+          0,
+          2,
+          3,
+          1,
+          null,
+          4
+        ]
+      },
+      "schedule_sha256": "1f1bdc4fc5dbdfaa7ba553fd6704e409c9bdd8442a8636faaa6b943776611107",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          0,
+          5,
+          6,
+          3,
+          4,
+          null,
+          null,
+          2
+        ],
+        "z": [
+          6,
+          null,
+          0,
+          null,
+          3,
+          2,
+          1,
+          4,
+          5
+        ]
+      },
+      "schedule_sha256": "1fe2fb1fa2a860188012efd2aacc102267e5aa5b9f2e42b1002067b248ba3b4e",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          2,
+          null,
+          4,
+          3,
+          5,
+          6,
+          null,
+          1
+        ],
+        "z": [
+          null,
+          5,
+          2,
+          null,
+          1,
+          3,
+          0,
+          6,
+          4
+        ]
+      },
+      "schedule_sha256": "f250a85df4eb30b25ad734ac5e102582e699222d04a1fc6d03947755d45cb2cd",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          1,
+          null,
+          3,
+          4,
+          5,
+          6,
+          0,
+          2
+        ],
+        "z": [
+          4,
+          null,
+          6,
+          0,
+          3,
+          1,
+          2,
+          5,
+          null
+        ]
+      },
+      "schedule_sha256": "8e7ea72e2dee4f5e2b82be1af8c6ba6abfe2494f4f7baf785cf090fe428fc2a7",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          0,
+          3,
+          5,
+          null,
+          4,
+          6,
+          2,
+          null
+        ],
+        "z": [
+          null,
+          6,
+          3,
+          0,
+          2,
+          null,
+          1,
+          5,
+          4
+        ]
+      },
+      "schedule_sha256": "7449b6562676f5e8d6dff0d4e3116e3c78d85e787a1da9ac7010069dbaf6a919",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          1,
+          4,
+          3,
+          5,
+          6,
+          null,
+          2,
+          0
+        ],
+        "z": [
+          4,
+          6,
+          2,
+          0,
+          3,
+          1,
+          5,
+          null,
+          null
+        ]
+      },
+      "schedule_sha256": "ad6ecb11d763dce4df0a7bf079ebe20f3cf62e18c61805bf1f9b7a7bdc7945f7",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 7,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          0,
+          4,
+          3,
+          null,
+          5,
+          6,
+          null,
+          2
+        ],
+        "z": [
+          null,
+          6,
+          2,
+          null,
+          0,
+          1,
+          3,
+          5,
+          4
+        ]
+      },
+      "schedule_sha256": "dbac8cc18316c8c20fe55083127d0650e36614a1d07ce81a8248167bbbf06189",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          0,
+          5,
+          3,
+          6,
+          4,
+          null,
+          1,
+          2
+        ],
+        "z": [
+          5,
+          6,
+          0,
+          3,
+          null,
+          1,
+          2,
+          null,
+          4
+        ]
+      },
+      "schedule_sha256": "c891ff010e72698975624fc0788aaacca171136bfc45aa9133cf725c32d22e08",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          null,
+          1,
+          6,
+          5,
+          3,
+          4,
+          2,
+          0
+        ],
+        "z": [
+          4,
+          6,
+          null,
+          1,
+          3,
+          2,
+          0,
+          5,
+          null
+        ]
+      },
+      "schedule_sha256": "beb595d6a98864f54249634bd294201510c972594a55dae5a0bdd4aab4a830d7",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          null,
+          5,
+          6,
+          3,
+          4,
+          null,
+          2,
+          1
+        ],
+        "z": [
+          6,
+          5,
+          1,
+          3,
+          2,
+          0,
+          4,
+          null,
+          null
+        ]
+      },
+      "schedule_sha256": "9807feb6a33292979e4b2488cb6dd7b536a02f2603ccf79322e36f065ad32514",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 7,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          1,
+          5,
+          null,
+          4,
+          3,
+          6,
+          0,
+          null
+        ],
+        "z": [
+          4,
+          null,
+          2,
+          1,
+          0,
+          null,
+          3,
+          6,
+          5
+        ]
+      },
+      "schedule_sha256": "cb9b776177d0d462490975abb157694e928ab6a15aa5e4fdbc971f30f959c403",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          2,
+          5,
+          6,
+          4,
+          3,
+          0,
+          null,
+          null
+        ],
+        "z": [
+          4,
+          null,
+          0,
+          1,
+          3,
+          2,
+          null,
+          6,
+          5
+        ]
+      },
+      "schedule_sha256": "6b1caaf190fe0282d8a6daf3e51a057690ef5504f8a5324eb8bb7d84d9df21ed",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          0,
+          5,
+          null,
+          3,
+          4,
+          6,
+          null,
+          2
+        ],
+        "z": [
+          null,
+          6,
+          null,
+          2,
+          1,
+          0,
+          3,
+          5,
+          4
+        ]
+      },
+      "schedule_sha256": "b9bcf996153a47633009be93069830512a6aba3d9bdaa9d51cf3ab9a1097bb39",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          null,
+          5,
+          4,
+          3,
+          null,
+          6,
+          2,
+          0
+        ],
+        "z": [
+          4,
+          6,
+          null,
+          3,
+          0,
+          2,
+          1,
+          5,
+          null
+        ]
+      },
+      "schedule_sha256": "12e4cb50666f0c40145d7e5b3f7c8ced2f7514fe2e15063d2fd3e6f074eb5e20",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 7,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          1,
+          6,
+          null,
+          4,
+          5,
+          3,
+          2,
+          0
+        ],
+        "z": [
+          6,
+          4,
+          1,
+          3,
+          null,
+          0,
+          2,
+          5,
+          null
+        ]
+      },
+      "schedule_sha256": "c70b61a4261852b14cf18632a0f786be9eb020203a289ca666d6be60d0451222",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          0,
+          null,
+          5,
+          4,
+          3,
+          6,
+          2,
+          1
+        ],
+        "z": [
+          6,
+          5,
+          2,
+          3,
+          null,
+          0,
+          1,
+          null,
+          4
+        ]
+      },
+      "schedule_sha256": "deb1ad3ef829ad42f64101121e40ff0e77e0e8b0af7c6a280ddf61b135c47ec9",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          0,
+          5,
+          null,
+          3,
+          6,
+          4,
+          null,
+          2
+        ],
+        "z": [
+          6,
+          null,
+          3,
+          1,
+          null,
+          0,
+          2,
+          4,
+          5
+        ]
+      },
+      "schedule_sha256": "adc77fa356ecc6526729f45a766d886e0e87b43d58e385dada056380e65b9d4b",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          2,
+          5,
+          null,
+          6,
+          4,
+          3,
+          0,
+          null
+        ],
+        "z": [
+          4,
+          null,
+          3,
+          0,
+          1,
+          null,
+          2,
+          5,
+          6
+        ]
+      },
+      "schedule_sha256": "4ec1ca467df40835d401b69f8e7bacd5e776b265bbe69e7c2249a3d714894553",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 7,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          null,
+          null,
+          3,
+          5,
+          6,
+          4,
+          2,
+          0
+        ],
+        "z": [
+          4,
+          2,
+          6,
+          0,
+          null,
+          3,
+          1,
+          null,
+          5
+        ]
+      },
+      "schedule_sha256": "ae44b559940345a1b2e21c1e7d2c1f464bffa1b9219a35eebbd7a87a8512ace4",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          null,
+          null,
+          5,
+          3,
+          6,
+          4,
+          2,
+          1
+        ],
+        "z": [
+          6,
+          0,
+          5,
+          1,
+          3,
+          null,
+          2,
+          4,
+          null
+        ]
+      },
+      "schedule_sha256": "ed9bdba9d777e6f86ae86b8118531128a7a85e157730ec43a7f3025587e3ea66",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          0,
+          3,
+          6,
+          null,
+          5,
+          4,
+          1,
+          2
+        ],
+        "z": [
+          6,
+          5,
+          0,
+          1,
+          3,
+          null,
+          2,
+          4,
+          null
+        ]
+      },
+      "schedule_sha256": "2185bac51ac5015df1f31743aad9326299e20179471deae0eb402b1d2ea8ad5f",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 7,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          2,
+          null,
+          5,
+          6,
+          4,
+          3,
+          1,
+          null
+        ],
+        "z": [
+          null,
+          null,
+          5,
+          2,
+          3,
+          0,
+          1,
+          6,
+          4
+        ]
+      },
+      "schedule_sha256": "409474ad0e1995afdae224026c18a18daaba0b500defabe23dc50638fc3fe1a5",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          null,
+          6,
+          3,
+          4,
+          5,
+          1,
+          2,
+          null
+        ],
+        "z": [
+          6,
+          5,
+          3,
+          0,
+          1,
+          2,
+          null,
+          null,
+          4
+        ]
+      },
+      "schedule_sha256": "9d57a5ddc9eb5e3f0d17396e2a4e5bc9d2024bbad4c5b21c1f8d45bb8b2d26e6",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          0,
+          4,
+          3,
+          5,
+          null,
+          6,
+          1,
+          null
+        ],
+        "z": [
+          5,
+          null,
+          0,
+          1,
+          null,
+          2,
+          3,
+          6,
+          4
+        ]
+      },
+      "schedule_sha256": "0ad310cbe7a49087d0e606646b5f8a20f0e1ba5938e876864b15d39da0fa51af",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 7,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          0,
+          2,
+          5,
+          3,
+          6,
+          4,
+          null,
+          1
+        ],
+        "z": [
+          5,
+          null,
+          null,
+          0,
+          1,
+          3,
+          2,
+          4,
+          6
+        ]
+      },
+      "schedule_sha256": "4fd20b1b4a6d1c5e85d0e22ed04d26c197fd99acfbe19c86f41f4f9f56c73a65",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          1,
+          6,
+          4,
+          3,
+          5,
+          null,
+          null,
+          0
+        ],
+        "z": [
+          null,
+          4,
+          null,
+          2,
+          1,
+          0,
+          6,
+          3,
+          5
+        ]
+      },
+      "schedule_sha256": "05311ce0ab252743616c8a0f47e429b234ad6a4b3cbea151f656f44f760c9251",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          1,
+          4,
+          6,
+          null,
+          5,
+          3,
+          2,
+          0
+        ],
+        "z": [
+          6,
+          4,
+          null,
+          2,
+          0,
+          3,
+          1,
+          5,
+          null
+        ]
+      },
+      "schedule_sha256": "ec58d486a082e21a420d4285e98484a649b2a75af4c96da402248a4fd80ffacd",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          null,
+          4,
+          6,
+          5,
+          3,
+          null,
+          1,
+          0
+        ],
+        "z": [
+          4,
+          5,
+          2,
+          null,
+          3,
+          0,
+          1,
+          6,
+          null
+        ]
+      },
+      "schedule_sha256": "724f0647f4f3eb680bd7c257601d687851e67b813b5886b3ce5783f21e70be02",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          null,
+          5,
+          4,
+          null,
+          6,
+          3,
+          2,
+          0
+        ],
+        "z": [
+          6,
+          4,
+          null,
+          2,
+          0,
+          1,
+          3,
+          null,
+          5
+        ]
+      },
+      "schedule_sha256": "f792071b1964b8913c99539c26b3e80f62c3839420c7cc05f0db8621dcc6e844",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          null,
+          null,
+          5,
+          4,
+          6,
+          3,
+          2,
+          1
+        ],
+        "z": [
+          5,
+          2,
+          6,
+          null,
+          3,
+          0,
+          1,
+          null,
+          4
+        ]
+      },
+      "schedule_sha256": "f0e76bda0d507a5e2693c0e21d8bdf5637c3568132a7c10d648ddfda0fb4cafc",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          0,
+          null,
+          4,
+          6,
+          5,
+          3,
+          2,
+          null
+        ],
+        "z": [
+          null,
+          null,
+          6,
+          3,
+          1,
+          2,
+          0,
+          5,
+          4
+        ]
+      },
+      "schedule_sha256": "136cb0ecd1d00f30b6fcfa26bd97fad610681abb4224d98fa1cec85b790ad9a7",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          2,
+          5,
+          6,
+          4,
+          null,
+          3,
+          1,
+          0
+        ],
+        "z": [
+          4,
+          5,
+          1,
+          0,
+          null,
+          2,
+          3,
+          6,
+          null
+        ]
+      },
+      "schedule_sha256": "7b01fcd47949537a45d9111fd02a60ac4492110bce410cb46471865c145f6e1f",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          1,
+          5,
+          6,
+          null,
+          4,
+          3,
+          null,
+          0
+        ],
+        "z": [
+          4,
+          null,
+          0,
+          null,
+          3,
+          2,
+          1,
+          5,
+          6
+        ]
+      },
+      "schedule_sha256": "a2aeb801e5381eab62590d570acdeefab366bab96dabf5189fd1d1b5a5e79e7e",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          2,
+          6,
+          null,
+          4,
+          3,
+          5,
+          0,
+          null
+        ],
+        "z": [
+          null,
+          4,
+          2,
+          3,
+          null,
+          0,
+          1,
+          5,
+          6
+        ]
+      },
+      "schedule_sha256": "d1e117cba2a425a7ac208cc37989cc4c7da1d7907db7b8e6a2d58b4833674d00",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          null,
+          null,
+          2
+        ],
+        "z": [
+          null,
+          6,
+          0,
+          2,
+          3,
+          null,
+          4,
+          1,
+          5
+        ]
+      },
+      "schedule_sha256": "99f62ae58080fded93b47cc2354499e7485feb1ffc7485b3e0d8456df5817df8",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          0,
+          3,
+          6,
+          5,
+          4,
+          null,
+          null,
+          1
+        ],
+        "z": [
+          null,
+          5,
+          1,
+          0,
+          2,
+          null,
+          4,
+          3,
+          6
+        ]
+      },
+      "schedule_sha256": "e73cb04017be6184dee90afa82ab5705ba0b39c632e4ad054cf58273d57921f6",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          2,
+          null,
+          4,
+          5,
+          6,
+          3,
+          null,
+          1
+        ],
+        "z": [
+          5,
+          null,
+          2,
+          3,
+          null,
+          0,
+          1,
+          4,
+          6
+        ]
+      },
+      "schedule_sha256": "a5b109351d51cae6e9c0a9afb0392d9ca1d5c06dcdb9dc1db72c154598b72a3c",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          4,
+          0,
+          5,
+          null,
+          3,
+          2,
+          6,
+          1
+        ],
+        "z": [
+          5,
+          null,
+          6,
+          0,
+          2,
+          3,
+          null,
+          1,
+          4
+        ]
+      },
+      "schedule_sha256": "c6ada3c99e9759e7047862336bab718d7ad7967e14cd2adaca7733b61d1593e6",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          null,
+          6,
+          null,
+          5,
+          4,
+          3,
+          1,
+          0
+        ],
+        "z": [
+          5,
+          4,
+          1,
+          3,
+          null,
+          2,
+          0,
+          6,
+          null
+        ]
+      },
+      "schedule_sha256": "f7daa033da36be1622e316c76ed77a559fc5969e8f2bbbabfa475960e1d9231a",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          null,
+          3,
+          null,
+          4,
+          6,
+          1,
+          5,
+          2
+        ],
+        "z": [
+          null,
+          6,
+          2,
+          5,
+          3,
+          1,
+          null,
+          0,
+          4
+        ]
+      },
+      "schedule_sha256": "eee48e2ca503c41ced926233545b045816ec22e202beb26c40007e17dc114bcf",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          0,
+          3,
+          5,
+          null,
+          4,
+          6,
+          1,
+          null
+        ],
+        "z": [
+          5,
+          null,
+          2,
+          1,
+          0,
+          null,
+          3,
+          4,
+          6
+        ]
+      },
+      "schedule_sha256": "540dabbe8be03119dc49598c7e3424359cea62a1ab873afc753ad36fd46edd28",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 7,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          0,
+          null,
+          4,
+          3,
+          6,
+          5,
+          2,
+          null
+        ],
+        "z": [
+          null,
+          6,
+          2,
+          null,
+          3,
+          0,
+          1,
+          4,
+          5
+        ]
+      },
+      "schedule_sha256": "e6689ebc5c36af3c40da31aa1ac9473ac6b7998427af00fd0d9ce46cfc176991",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          2,
+          4,
+          6,
+          null,
+          3,
+          5,
+          null,
+          0
+        ],
+        "z": [
+          4,
+          null,
+          0,
+          null,
+          3,
+          1,
+          2,
+          5,
+          6
+        ]
+      },
+      "schedule_sha256": "29757d3627fdbeceb78bac3b9d68b34b7665cb06df9ed7d424e177aa968a01bc",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 7,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          null,
+          3,
+          6,
+          5,
+          4,
+          null,
+          1,
+          2
+        ],
+        "z": [
+          6,
+          5,
+          1,
+          null,
+          3,
+          2,
+          0,
+          null,
+          4
+        ]
+      },
+      "schedule_sha256": "894176b5c348fef4b0cf31b67482d39fb0caadbb1ff39a6ecd1a34366b552d87",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 7,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          6,
+          null,
+          null,
+          1,
+          3,
+          4,
+          2,
+          0,
+          5
+        ],
+        "z": [
+          2,
+          4,
+          6,
+          null,
+          1,
+          0,
+          5,
+          null,
+          3
+        ]
+      },
+      "schedule_sha256": "59808dab727e7307967eba7a9e9e339bfa1d98df7ee0ad5dc077e12a9be55cce",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          4,
+          null,
+          2,
+          3,
+          1,
+          0,
+          5,
+          null,
+          6
+        ],
+        "z": [
+          null,
+          3,
+          null,
+          2,
+          5,
+          4,
+          0,
+          6,
+          1
+        ]
+      },
+      "schedule_sha256": "143f9f015d16df0e959d8eccdc49c063e77254671fe4517507e011c16eef0978",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          null,
+          2
+        ],
+        "z": [
+          6,
+          null,
+          null,
+          1,
+          0,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "schedule_sha256": "a2b5cacfbb84d4adffd8eb00c1af4c603350279a443d2dceffe906ebfc36dfe2",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 7,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          null,
+          null,
+          3,
+          5,
+          4,
+          6,
+          1,
+          0
+        ],
+        "z": [
+          5,
+          2,
+          4,
+          null,
+          0,
+          1,
+          3,
+          6,
+          null
+        ]
+      },
+      "schedule_sha256": "af0d21920151dbcf8a81f62961b479dc71f26161f207e598738e346be79e892c",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          null,
+          2,
+          5,
+          6,
+          3,
+          4,
+          null,
+          1
+        ],
+        "z": [
+          null,
+          5,
+          null,
+          2,
+          0,
+          3,
+          1,
+          4,
+          6
+        ]
+      },
+      "schedule_sha256": "61a0f9f6e35236b4f4d1ba3b97ace20c4665818168d689ed7335f8eb1773b2e8",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          4,
+          2,
+          1,
+          3,
+          6,
+          null,
+          0,
+          null,
+          5
+        ],
+        "z": [
+          2,
+          4,
+          null,
+          null,
+          0,
+          3,
+          6,
+          5,
+          1
+        ]
+      },
+      "schedule_sha256": "d5373fd1254aa95474a641bb30ab761446035acc9112a82c626efda5e4d55980",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          2,
+          4,
+          6,
+          3,
+          5,
+          0,
+          null,
+          null
+        ],
+        "z": [
+          4,
+          null,
+          2,
+          0,
+          1,
+          3,
+          null,
+          6,
+          5
+        ]
+      },
+      "schedule_sha256": "c6b23239a9a26ec0ab378dbab389491856ea8a77d8b5e8cb3643548c3bf20808",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          1,
+          3,
+          5,
+          4,
+          6,
+          null,
+          0,
+          null
+        ],
+        "z": [
+          4,
+          null,
+          1,
+          null,
+          2,
+          3,
+          0,
+          6,
+          5
+        ]
+      },
+      "schedule_sha256": "c006082ea9c5fbb6c6c0cfa7d465a6a0f4397c58ca986185ebdba281e3d52a1b",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          1,
+          5,
+          6,
+          null,
+          0,
+          3,
+          4,
+          2
+        ],
+        "z": [
+          6,
+          null,
+          null,
+          0,
+          1,
+          4,
+          2,
+          3,
+          5
+        ]
+      },
+      "schedule_sha256": "95539ca4a93d385196d7b2d2a3ed4724613d5eed95fc925f6375d6e3c02ac8fe",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          null,
+          1,
+          5,
+          6,
+          4,
+          3,
+          2,
+          0
+        ],
+        "z": [
+          6,
+          4,
+          null,
+          3,
+          2,
+          1,
+          0,
+          null,
+          5
+        ]
+      },
+      "schedule_sha256": "e5d5febb13d4ec38c351a7d1103d6abd2016ec1306cc8d7fe8f38f3d4c5a031f",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          0,
+          3,
+          null,
+          4,
+          6,
+          5,
+          1,
+          null
+        ],
+        "z": [
+          null,
+          5,
+          0,
+          1,
+          null,
+          3,
+          2,
+          6,
+          4
+        ]
+      },
+      "schedule_sha256": "61fa523ce02d7367a9234076db5f267754ca34c591c8c5305ded817b58a4e786",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          2,
+          5,
+          3,
+          6,
+          4,
+          null,
+          0,
+          1
+        ],
+        "z": [
+          5,
+          4,
+          1,
+          3,
+          0,
+          2,
+          6,
+          null,
+          null
+        ]
+      },
+      "schedule_sha256": "924edbba4aa880367f50d5451754cd065310d8881493ff58261ebe7e6fcbacca",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          2,
+          5,
+          4,
+          3,
+          6,
+          null,
+          1,
+          0
+        ],
+        "z": [
+          5,
+          4,
+          1,
+          3,
+          2,
+          0,
+          6,
+          null,
+          null
+        ]
+      },
+      "schedule_sha256": "686684966d547806cfaa81d9356c3a40f860e5b5c76f6e57b057796ea22e288c",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          0,
+          1,
+          3,
+          4,
+          6,
+          5,
+          2,
+          null,
+          null
+        ],
+        "z": [
+          6,
+          null,
+          2,
+          0,
+          1,
+          3,
+          null,
+          4,
+          5
+        ]
+      },
+      "schedule_sha256": "df855d05d54e57d38bbe9157441674147a897d21134c80f1a6deda5795306682",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          2,
+          6,
+          null,
+          3,
+          4,
+          5,
+          0,
+          null
+        ],
+        "z": [
+          4,
+          null,
+          1,
+          3,
+          0,
+          null,
+          2,
+          5,
+          6
+        ]
+      },
+      "schedule_sha256": "f55db54f9f7b392624eef63b25c6fa35fdbfbed354e948f2f48fabbc5f1cef6a",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          0,
+          4,
+          5,
+          3,
+          6,
+          null,
+          null,
+          2
+        ],
+        "z": [
+          null,
+          6,
+          3,
+          1,
+          2,
+          0,
+          4,
+          5,
+          null
+        ]
+      },
+      "schedule_sha256": "086f6a6f793ddbb3ea44bc64da8665f0bb1f2a355be070a91ceac79c0b9ae131",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          null,
+          1,
+          5,
+          4,
+          6,
+          3,
+          2,
+          0
+        ],
+        "z": [
+          6,
+          4,
+          null,
+          1,
+          0,
+          2,
+          3,
+          5,
+          null
+        ]
+      },
+      "schedule_sha256": "ec70e1f8528ba8b0ebe0d56ade434605c05767ad16d1adc2faeb78c8d80ef981",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          null,
+          0,
+          6,
+          3,
+          4,
+          5,
+          1,
+          2
+        ],
+        "z": [
+          5,
+          6,
+          null,
+          2,
+          3,
+          1,
+          0,
+          4,
+          null
+        ]
+      },
+      "schedule_sha256": "445721970a5acad73613401a40c05a0af2e5eb35ea7ee7d191dcece4922cf1ab",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 7,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          0,
+          3,
+          4,
+          6,
+          5,
+          null,
+          1,
+          null
+        ],
+        "z": [
+          null,
+          5,
+          2,
+          1,
+          3,
+          null,
+          0,
+          4,
+          6
+        ]
+      },
+      "schedule_sha256": "5da6d1da9338770f65f20b82aba6da53b17ea4a8bcbfcf2bb4b8871a3c4e6ba5",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          2,
+          6,
+          4,
+          null,
+          1,
+          5,
+          3,
+          null,
+          0
+        ],
+        "z": [
+          4,
+          0,
+          2,
+          5,
+          null,
+          3,
+          1,
+          6,
+          null
+        ]
+      },
+      "schedule_sha256": "ad10d856d8afa279ac60e2b8ba464cc80864a292c6a5aa64f6e30628cabebc17",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          null,
+          1,
+          null,
+          3,
+          6,
+          5,
+          4,
+          0,
+          2
+        ],
+        "z": [
+          4,
+          null,
+          6,
+          0,
+          1,
+          2,
+          3,
+          null,
+          5
+        ]
+      },
+      "schedule_sha256": "fa112886d1cf1baf28b418726574822150a455b469025d0261a0d645d6bc624c",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    },
+    {
+      "schedule": {
+        "x": [
+          1,
+          2,
+          6,
+          4,
+          5,
+          3,
+          null,
+          null,
+          0
+        ],
+        "z": [
+          null,
+          4,
+          0,
+          null,
+          2,
+          1,
+          6,
+          3,
+          5
+        ]
+      },
+      "schedule_sha256": "61fd73fac42171a4d41caa5339fc6c189fd739cf6c61a9703f9a31aea00a60f3",
+      "source": "prior_schedule_search/results89.jsonl",
+      "historical_screening_rounds": 2,
+      "historical_noise_p": 0.001,
+      "historical_heuristic_upper_bound": 6,
+      "historical_stronger_rescreen": false,
+      "current_distance_status": "UNVERIFIED: historical upper bound is not a current distance or lower bound"
+    }
+  ]
+}

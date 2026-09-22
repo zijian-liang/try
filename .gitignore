@@ -1,0 +1,36 @@
+# Python environments and caches
+.venv*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+*.egg-info/
+build/
+dist/
+
+# Generated experiment outputs
+results/
+scan_results/
+validation/
+plots/
+figures/
+validation_*.json
+**/data/candidates.json
+**/data/ranking.csv
+*.log
+*.lock
+
+# Required historical input used by the high-slope program
+!**/data/old_scan.log
+
+# Local credentials and editor/system files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.swp

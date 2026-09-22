@@ -1,0 +1,96 @@
+{
+  "w7": {
+    "X": {
+      "lower_bound": 7,
+      "upper_bound": 7,
+      "exact": true,
+      "witness": [
+        0,
+        1,
+        16,
+        29,
+        30,
+        45,
+        46
+      ],
+      "method": "exhaustive exclusion <=6; explicit weight7 logical"
+    },
+    "Z": {
+      "lower_bound": 7,
+      "upper_bound": 7,
+      "exact": true,
+      "witness": [
+        0,
+        1,
+        2,
+        10,
+        19,
+        20,
+        30
+      ],
+      "method": "exhaustive exclusion <=6; explicit weight7 logical"
+    }
+  },
+  "bb72": {
+    "X": {
+      "lower_bound": 6,
+      "upper_bound": 6,
+      "exact": true,
+      "witness": [
+        0,
+        3,
+        6,
+        12,
+        27,
+        30
+      ],
+      "method": "exhaustive exclusion <=5; explicit weight6 logical"
+    },
+    "Z": {
+      "lower_bound": 6,
+      "upper_bound": 6,
+      "exact": true,
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        20,
+        22
+      ],
+      "method": "exhaustive exclusion <=5; explicit weight6 logical"
+    }
+  },
+  "surface7": {
+    "X": {
+      "lower_bound": 7,
+      "upper_bound": 7,
+      "exact": true,
+      "witness": [
+        0,
+        7,
+        14,
+        21,
+        28,
+        35,
+        42
+      ],
+      "method": "exhaustive exclusion <=6; explicit weight7 logical"
+    },
+    "Z": {
+      "lower_bound": 7,
+      "upper_bound": 7,
+      "exact": true,
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "method": "exhaustive exclusion <=6; explicit weight7 logical"
+    }
+  }
+}

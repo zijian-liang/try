@@ -1,0 +1,191 @@
+{
+  "w7_baseline": {
+    "circuit_sha256": "02a6e7550afc1623c03d9a0f5e595ddcdbbd1357b4ce0ceb7ee6cc90e99bbd23",
+    "witness": {
+      "weight_upper_bound": 6,
+      "logical_observables_flipped": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        11
+      ],
+      "detector_parity_zero": true,
+      "dem_errors": "error(1) D56 D74 D75\nerror(1) D68 D69 D78\nerror(1) D59 D77 D78\nerror(1) D59 D66 D68 D69 D71 D74 D77 D82 L1 L4 L5 L6 L7 L8 L10\nerror(1) D9 D66 D75 D90 D93 D105 D110\nerror(1) D9 D56 D71 D82 D90 D93 D105 D110 L2 L7 L9 L10 L11",
+      "physical_errors": [
+        "ExplainedError {\n    dem_error_terms: D9[coords 9,1,0] D56[coords 0,1,1] D71[coords 15,1,1] D82[coords 26,1,1] D90[coords 6,0,1] D93[coords 9,0,1] D105[coords 21,0,1] D110[coords 26,0,1] L2 L7 L9 L10 L11\n    CircuitErrorLocation {\n        flipped_pauli_product: X26*Y93\n        Circuit location stack trace:\n            (after 7 TICKs)\n            at instruction #44 (DEPOLARIZE2) in the circuit\n            at targets #75 to #76 of the instruction\n            resolving to DEPOLARIZE2(0.003) 26 93\n    }\n}",
+        "ExplainedError {\n    dem_error_terms: D9[coords 9,1,0] D66[coords 10,1,1] D75[coords 19,1,1] D90[coords 6,0,1] D93[coords 9,0,1] D105[coords 21,0,1] D110[coords 26,0,1]\n    CircuitErrorLocation {\n        flipped_pauli_product: Y37\n        Circuit location stack trace:\n            (after 7 TICKs)\n            at instruction #44 (DEPOLARIZE2) in the circuit\n            at targets #13 to #14 of the instruction\n            resolving to DEPOLARIZE2(0.003) 62 37\n    }\n}",
+        "ExplainedError {\n    dem_error_terms: D56[coords 0,1,1] D74[coords 18,1,1] D75[coords 19,1,1]\n    CircuitErrorLocation {\n        flipped_pauli_product: X46\n        Circuit location stack trace:\n            (after 9 TICKs)\n            at instruction #50 (DEPOLARIZE2) in the circuit\n            at targets #93 to #94 of the instruction\n            resolving to DEPOLARIZE2(0.003) 46 102\n    }\n}",
+        "ExplainedError {\n    dem_error_terms: D59[coords 3,1,1] D66[coords 10,1,1] D68[coords 12,1,1] D69[coords 13,1,1] D71[coords 15,1,1] D74[coords 18,1,1] D77[coords 21,1,1] D82[coords 26,1,1] L1 L4 L5 L6 L7 L8 L10\n    CircuitErrorLocation {\n        flipped_pauli_product: X70\n        Circuit location stack trace:\n            (after 7 TICKs)\n            at instruction #44 (DEPOLARIZE2) in the circuit\n            at targets #29 to #30 of the instruction\n            resolving to DEPOLARIZE2(0.003) 70 45\n    }\n}",
+        "ExplainedError {\n    dem_error_terms: D59[coords 3,1,1] D77[coords 21,1,1] D78[coords 22,1,1]\n    CircuitErrorLocation {\n        flipped_pauli_product: X49\n        Circuit location stack trace:\n            (after 9 TICKs)\n            at instruction #50 (DEPOLARIZE2) in the circuit\n            at targets #99 to #100 of the instruction\n            resolving to DEPOLARIZE2(0.003) 49 105\n    }\n}",
+        "ExplainedError {\n    dem_error_terms: D68[coords 12,1,1] D69[coords 13,1,1] D78[coords 22,1,1]\n    CircuitErrorLocation {\n        flipped_pauli_product: X40\n        Circuit location stack trace:\n            (after 9 TICKs)\n            at instruction #50 (DEPOLARIZE2) in the circuit\n            at targets #81 to #82 of the instruction\n            resolving to DEPOLARIZE2(0.003) 40 96\n    }\n}"
+      ],
+      "physical_location_keys": [
+        {
+          "tick_offset": 7,
+          "target_range_start": 74,
+          "target_range_end": 76,
+          "stack": [
+            [
+              43,
+              0
+            ]
+          ]
+        },
+        {
+          "tick_offset": 7,
+          "target_range_start": 12,
+          "target_range_end": 14,
+          "stack": [
+            [
+              43,
+              0
+            ]
+          ]
+        },
+        {
+          "tick_offset": 9,
+          "target_range_start": 92,
+          "target_range_end": 94,
+          "stack": [
+            [
+              49,
+              0
+            ]
+          ]
+        },
+        {
+          "tick_offset": 7,
+          "target_range_start": 28,
+          "target_range_end": 30,
+          "stack": [
+            [
+              43,
+              0
+            ]
+          ]
+        },
+        {
+          "tick_offset": 9,
+          "target_range_start": 98,
+          "target_range_end": 100,
+          "stack": [
+            [
+              49,
+              0
+            ]
+          ]
+        },
+        {
+          "tick_offset": 9,
+          "target_range_start": 80,
+          "target_range_end": 82,
+          "stack": [
+            [
+              49,
+              0
+            ]
+          ]
+        }
+      ],
+      "distinct_physical_locations": 6
+    },
+    "provenance": "Local independent complete <=5 proof plus explicit physical <=6 witness; lower bounds must be revalidated by receiving run."
+  },
+  "parallel8_4c4fb6c67ebc": {
+    "circuit_sha256": "a1cb7a40bc288cbf72df4dad2a56ab8d2608dd52f59f535ef8ceb2897641b78a",
+    "witness": {
+      "weight_upper_bound": 6,
+      "logical_observables_flipped": [
+        0,
+        1,
+        3,
+        5,
+        11
+      ],
+      "detector_parity_zero": true,
+      "dem_errors": "error(1) D231 D232 D241\nerror(1) D224 D229 D231 D234 D241 D242 D244 D247 L2 L5 L6 L7 L9 L10\nerror(1) D169 D226 D249 L3 L4\nerror(1) D224 D227 D240 D249 L0 L3 L6 L7 L11\nerror(1) D169 D234 D240 D251 L1 L2 L6 L11\nerror(1) D226 D227 D229 D232 D242 D244 D247 D251 L3 L4 L6 L9 L10 L11",
+      "physical_errors": [
+        "ExplainedError {\n    dem_error_terms: D169[coords 1,1,3] D226[coords 2,1,4] D249[coords 25,1,4] L3 L4\n    CircuitErrorLocation {\n        flipped_pauli_product: X29\n        Circuit location stack trace:\n            (after 38 TICKs)\n            at instruction #311 (DEPOLARIZE2) in the circuit\n            at targets #107 to #108 of the instruction\n            resolving to DEPOLARIZE2(0.003) 29 109\n    }\n}",
+        "ExplainedError {\n    dem_error_terms: D169[coords 1,1,3] D234[coords 10,1,4] D240[coords 16,1,4] D251[coords 27,1,4] L1 L2 L6 L11\n    CircuitErrorLocation {\n        flipped_pauli_product: X27\n        Circuit location stack trace:\n            (after 36 TICKs)\n            at instruction #305 (DEPOLARIZE2) in the circuit\n            at targets #77 to #78 of the instruction\n            resolving to DEPOLARIZE2(0.003) 27 94\n    }\n}",
+        "ExplainedError {\n    dem_error_terms: D224[coords 0,1,4] D227[coords 3,1,4] D240[coords 16,1,4] D249[coords 25,1,4] L0 L3 L6 L7 L11\n    CircuitErrorLocation {\n        flipped_pauli_product: X0\n        Circuit location stack trace:\n            (after 37 TICKs)\n            at instruction #308 (DEPOLARIZE2) in the circuit\n            at targets #89 to #90 of the instruction\n            resolving to DEPOLARIZE2(0.003) 0 100\n    }\n}",
+        "ExplainedError {\n    dem_error_terms: D224[coords 0,1,4] D229[coords 5,1,4] D231[coords 7,1,4] D234[coords 10,1,4] D241[coords 17,1,4] D242[coords 18,1,4] D244[coords 20,1,4] D247[coords 23,1,4] L2 L5 L6 L7 L9 L10\n    CircuitErrorLocation {\n        flipped_pauli_product: X63\n        Circuit location stack trace:\n            (after 43 TICKs)\n            at instruction #384 (DEPOLARIZE2) in the circuit\n            at targets #15 to #16 of the instruction\n            resolving to DEPOLARIZE2(0.003) 63 17\n    }\n}",
+        "ExplainedError {\n    dem_error_terms: D226[coords 2,1,4] D227[coords 3,1,4] D229[coords 5,1,4] D232[coords 8,1,4] D242[coords 18,1,4] D244[coords 20,1,4] D247[coords 23,1,4] D251[coords 27,1,4] L3 L4 L6 L9 L10 L11\n    CircuitErrorLocation {\n        flipped_pauli_product: X76\n        Circuit location stack trace:\n            (after 43 TICKs)\n            at instruction #384 (DEPOLARIZE2) in the circuit\n            at targets #41 to #42 of the instruction\n            resolving to DEPOLARIZE2(0.003) 76 2\n    }\n}",
+        "ExplainedError {\n    dem_error_terms: D231[coords 7,1,4] D232[coords 8,1,4] D241[coords 17,1,4]\n    CircuitErrorLocation {\n        flipped_pauli_product: X35\n        Circuit location stack trace:\n            (after 39 TICKs)\n            at instruction #314 (DEPOLARIZE2) in the circuit\n            at targets #15 to #16 of the instruction\n            resolving to DEPOLARIZE2(0.003) 35 91\n    }\n}"
+      ],
+      "physical_location_keys": [
+        {
+          "tick_offset": 38,
+          "target_range_start": 106,
+          "target_range_end": 108,
+          "stack": [
+            [
+              310,
+              0
+            ]
+          ]
+        },
+        {
+          "tick_offset": 36,
+          "target_range_start": 76,
+          "target_range_end": 78,
+          "stack": [
+            [
+              304,
+              0
+            ]
+          ]
+        },
+        {
+          "tick_offset": 37,
+          "target_range_start": 88,
+          "target_range_end": 90,
+          "stack": [
+            [
+              307,
+              0
+            ]
+          ]
+        },
+        {
+          "tick_offset": 43,
+          "target_range_start": 14,
+          "target_range_end": 16,
+          "stack": [
+            [
+              383,
+              0
+            ]
+          ]
+        },
+        {
+          "tick_offset": 43,
+          "target_range_start": 40,
+          "target_range_end": 42,
+          "stack": [
+            [
+              383,
+              0
+            ]
+          ]
+        },
+        {
+          "tick_offset": 39,
+          "target_range_start": 14,
+          "target_range_end": 16,
+          "stack": [
+            [
+              313,
+              0
+            ]
+          ]
+        }
+      ],
+      "distinct_physical_locations": 6
+    },
+    "provenance": "Local independent complete <=5 proof plus explicit physical <=6 witness; lower bounds must be revalidated by receiving run."
+  }
+}

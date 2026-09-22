@@ -1,0 +1,409 @@
+nohup: 忽略输入
+Generating 64 distinct W7 schedules; checking extraction order and error-model uniqueness.
+Saved 64 candidates to /home/zijianliang/scan_results/candidates.json
+Distance screening: 32 workers (requested 32); full R=7, p=0.003, idle=0
+DEM preflight 10/64; 10 distinct complete models
+DEM preflight 20/64; 20 distinct complete models
+DEM preflight 30/64; 30 distinct complete models
+DEM preflight 40/64; 40 distinct complete models
+DEM preflight 50/64; 50 distinct complete models
+DEM preflight 60/64; 60 distinct complete models
+DEM preflight 64/64; 64 distinct complete models
+serial14_x_then_z_08640a11162c: rejected [1, 4] certified=False
+serial14_z_then_x_7e76e2e76408: rejected [1, 4] certified=False
+parallel9_61fd73fac421: qualified [6, 6] certified=True
+parallel8_6dc83cb4c2b8: qualified [6, 6] certified=True
+parallel8_10b59dbc90a2: qualified [6, 6] certified=True
+parallel9_f55db54f9f7b: qualified [6, 6] certified=True
+parallel9_a2aeb801e538: qualified [6, 6] certified=True
+parallel8_1f8ac8948859: qualified [6, 6] certified=True
+parallel8_09313c5dff15: qualified [6, 6] certified=True
+parallel9_6b1caaf190fe: qualified [6, 6] certified=True
+parallel8_189cc0e985af: qualified [6, 6] certified=True
+parallel8_37e48f5b8159: qualified [6, 6] certified=True
+w7_baseline: qualified [6, 6] certified=True
+parallel9_05ee60d4c2d8: qualified [6, 7] certified=True
+serial14_x_then_z_d8682bff3ea2: rejected [1, 4] certified=False
+parallel9_4ec1ca467df4: qualified [6, 7] certified=True
+parallel8_4e56c15340b9: qualified [6, 7] certified=True
+parallel8_1b39e55927d7: rejected [5, 5] certified=False
+parallel9_445721970a5a: qualified [6, 7] certified=True
+parallel9_29757d3627fd: qualified [6, 7] certified=True
+parallel8_9e4d4ad0009c: qualified [6, 7] certified=True
+parallel9_0ad310cbe7a4: qualified [6, 7] certified=True
+parallel8_c5105a1e5f91: qualified [6, 7] certified=True
+parallel9_a56dd90f9a99: qualified [6, 7] certified=True
+parallel9_ad6ecb11d763: qualified [6, 7] certified=True
+parallel8_d4168a22d247: qualified [6, 7] certified=True
+parallel8_2b477958ec61: qualified [6, 7] certified=True
+parallel8_4c4fb6c67ebc: qualified [6, 7] certified=True
+parallel9_540dabbe8be0: qualified [6, 7] certified=True
+parallel9_a2b5cacfbb84: qualified [6, 7] certified=True
+parallel8_64ed9c3703ea: qualified [6, 7] certified=True
+parallel8_558803c38e91: qualified [6, 7] certified=True
+parallel9_9807feb6a332: qualified [6, 7] certified=True
+parallel8_215be26722e3: qualified [6, 7] certified=True
+parallel9_894176b5c348: qualified [6, 7] certified=True
+parallel9_12e4cb50666f: qualified [6, 7] certified=True
+serial14_z_then_x_1aa739c52b66: rejected [1, 5] certified=False
+parallel9_924edbba4aa8: rejected [5, 5] certified=False
+parallel8_0cd8740ce8f8: qualified [6, 6] certified=True
+parallel8_68f60bd0ac43: qualified [6, 6] certified=True
+parallel9_f792071b1964: qualified [6, 6] certified=True
+parallel9_e5d5febb13d4: qualified [6, 6] certified=True
+parallel9_c6b23239a9a2: qualified [6, 6] certified=True
+parallel9_8e7ea72e2dee: qualified [6, 6] certified=True
+parallel9_492d0775a4a9: qualified [6, 6] certified=True
+parallel8_e0bd105026b1: qualified [6, 6] certified=True
+parallel8_9aa3066cedc9: qualified [6, 7] certified=True
+parallel9_1f1bdc4fc5db: qualified [6, 6] certified=True
+parallel8_cffe7db568ef: qualified [6, 6] certified=True
+parallel8_517340d9af58: qualified [6, 6] certified=True
+parallel9_e6689ebc5c36: qualified [6, 6] certified=True
+parallel9_f0e76bda0d50: qualified [6, 6] certified=True
+parallel8_e667302ffb44: qualified [6, 7] certified=True
+parallel8_bfb52e74490a: qualified [6, 6] certified=True
+parallel9_e73cb04017be: qualified [6, 6] certified=True
+parallel8_1cab7c08227c: qualified [6, 6] certified=True
+parallel9_a5b109351d51: qualified [6, 6] certified=True
+parallel8_4d507c0e80fa: qualified [6, 6] certified=True
+parallel9_f7daa033da36: qualified [6, 6] certified=True
+parallel9_724f0647f4f3: qualified [6, 6] certified=True
+parallel8_82daac8e748a: qualified [6, 6] certified=True
+parallel9_7b01fcd47949: qualified [6, 6] certified=True
+parallel8_c6257e94e5ae: qualified [6, 6] certified=True
+parallel8_aa79cbeec782: qualified [6, 7] certified=True
+Screening finished: qualified=58, rejected=6, inconclusive=0, duplicate=0, error=0
+Selected 12 circuits. Same W7 code, R=7, idle=0, joint X/Z, fixed beam=2.
+p order: [0.003, 0.0025]; full-wave stopping; relative 1sigma target=20%.
+Preparing w7_baseline p=0.003; R=7, idle=0, full correlated DEM, fixed beam=2.
+Workers 380/380; single-thread processes; stop checked only after complete waves; memory estimate 184 MiB/worker.
+[2026-09-20T16:19:29+00:00] w7_baseline p=0.003 N=645 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=119 pending_batches=119 wave=0 provisional
+[2026-09-20T16:19:41+00:00] w7_baseline p=0.003 N=1,000 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:19:59+00:00] w7_baseline p=0.003 N=1,988 Fjoint=2 FX=0 FZ=2 Fboth=0 decodefail=0 relative1sigma=70.7% active=4 pending_batches=4 wave=1 provisional
+[2026-09-20T16:20:17+00:00] w7_baseline p=0.003 N=2,000 Fjoint=2 FX=0 FZ=2 Fboth=0 decodefail=0 relative1sigma=70.7% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:21:12+00:00] w7_baseline p=0.003 N=2,000 Fjoint=2 FX=0 FZ=2 Fboth=0 decodefail=0 relative1sigma=70.7% active=377 pending_batches=377 wave=2 provisional
+[2026-09-20T16:21:43+00:00] w7_baseline p=0.003 N=2,000 Fjoint=2 FX=0 FZ=2 Fboth=0 decodefail=0 relative1sigma=70.7% active=377 pending_batches=377 wave=2 provisional
+[2026-09-20T16:22:13+00:00] w7_baseline p=0.003 N=2,915 Fjoint=2 FX=0 FZ=2 Fboth=0 decodefail=0 relative1sigma=70.7% active=362 pending_batches=362 wave=2 provisional
+[2026-09-20T16:22:43+00:00] w7_baseline p=0.003 N=6,758 Fjoint=8 FX=3 FZ=5 Fboth=0 decodefail=0 relative1sigma=35.3% active=299 pending_batches=299 wave=2 provisional
+[2026-09-20T16:23:13+00:00] w7_baseline p=0.003 N=13,202 Fjoint=16 FX=6 FZ=10 Fboth=0 decodefail=0 relative1sigma=25.0% active=193 pending_batches=193 wave=2 provisional
+[2026-09-20T16:23:44+00:00] w7_baseline p=0.003 N=20,461 Fjoint=37 FX=12 FZ=26 Fboth=1 decodefail=0 relative1sigma=16.4% active=74 pending_batches=74 wave=2 provisional
+[2026-09-20T16:24:15+00:00] w7_baseline p=0.003 N=24,121 Fjoint=52 FX=20 FZ=36 Fboth=4 decodefail=0 relative1sigma=13.9% active=14 pending_batches=14 wave=2 provisional
+[2026-09-20T16:24:46+00:00] w7_baseline p=0.003 N=24,914 Fjoint=60 FX=27 FZ=39 Fboth=6 decodefail=0 relative1sigma=12.9% active=1 pending_batches=1 wave=2 provisional
+[2026-09-20T16:24:51+00:00] w7_baseline p=0.003 N=24,975 Fjoint=61 FX=27 FZ=40 Fboth=6 decodefail=0 relative1sigma=12.8% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:24:51+00:00] w7_baseline p=0.003 N=24,975 Fjoint=61 FX=27 FZ=40 Fboth=6 decodefail=0 relative1sigma=12.8% active=0 pending_batches=0 wave=- point_done precision_reached
+Preparing parallel8_215be26722e3 p=0.003; R=7, idle=0, full correlated DEM, fixed beam=2.
+Workers 380/380; single-thread processes; stop checked only after complete waves; memory estimate 184 MiB/worker.
+[2026-09-20T16:25:35+00:00] parallel8_215be26722e3 p=0.003 N=636 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=122 pending_batches=122 wave=0 provisional
+[2026-09-20T16:25:56+00:00] parallel8_215be26722e3 p=0.003 N=1,000 Fjoint=2 FX=2 FZ=1 Fboth=1 decodefail=0 relative1sigma=70.6% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:26:53+00:00] parallel8_215be26722e3 p=0.003 N=1,496 Fjoint=3 FX=2 FZ=2 Fboth=1 decodefail=0 relative1sigma=57.7% active=355 pending_batches=355 wave=1 provisional
+[2026-09-20T16:27:23+00:00] parallel8_215be26722e3 p=0.003 N=4,508 Fjoint=3 FX=2 FZ=2 Fboth=1 decodefail=0 relative1sigma=57.7% active=257 pending_batches=257 wave=1 provisional
+[2026-09-20T16:27:53+00:00] parallel8_215be26722e3 p=0.003 N=10,429 Fjoint=12 FX=8 FZ=7 Fboth=3 decodefail=0 relative1sigma=28.9% active=66 pending_batches=66 wave=1 provisional
+[2026-09-20T16:28:24+00:00] parallel8_215be26722e3 p=0.003 N=12,382 Fjoint=20 FX=14 FZ=10 Fboth=4 decodefail=0 relative1sigma=22.3% active=3 pending_batches=3 wave=1 provisional
+[2026-09-20T16:28:33+00:00] parallel8_215be26722e3 p=0.003 N=12,475 Fjoint=22 FX=16 FZ=12 Fboth=6 decodefail=0 relative1sigma=21.3% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:28:54+00:00] parallel8_215be26722e3 p=0.003 N=14,052 Fjoint=24 FX=17 FZ=13 Fboth=6 decodefail=0 relative1sigma=20.4% active=20 pending_batches=20 wave=2 provisional
+[2026-09-20T16:29:12+00:00] parallel8_215be26722e3 p=0.003 N=14,152 Fjoint=26 FX=18 FZ=14 Fboth=6 decodefail=0 relative1sigma=19.6% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:29:12+00:00] parallel8_215be26722e3 p=0.003 N=14,152 Fjoint=26 FX=18 FZ=14 Fboth=6 decodefail=0 relative1sigma=19.6% active=0 pending_batches=0 wave=- point_done precision_reached
+Preparing parallel9_a2b5cacfbb84 p=0.003; R=7, idle=0, full correlated DEM, fixed beam=2.
+Workers 380/380; single-thread processes; stop checked only after complete waves; memory estimate 189 MiB/worker.
+[2026-09-20T16:29:46+00:00] parallel9_a2b5cacfbb84 p=0.003 N=633 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=123 pending_batches=123 wave=0 provisional
+[2026-09-20T16:30:10+00:00] parallel9_a2b5cacfbb84 p=0.003 N=1,000 Fjoint=2 FX=1 FZ=1 Fboth=0 decodefail=0 relative1sigma=70.6% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:31:07+00:00] parallel9_a2b5cacfbb84 p=0.003 N=1,527 Fjoint=2 FX=1 FZ=1 Fboth=0 decodefail=0 relative1sigma=70.7% active=354 pending_batches=354 wave=1 provisional
+[2026-09-20T16:31:37+00:00] parallel9_a2b5cacfbb84 p=0.003 N=4,353 Fjoint=8 FX=5 FZ=4 Fboth=1 decodefail=0 relative1sigma=35.3% active=262 pending_batches=262 wave=1 provisional
+[2026-09-20T16:32:07+00:00] parallel9_a2b5cacfbb84 p=0.003 N=9,189 Fjoint=14 FX=8 FZ=7 Fboth=1 decodefail=0 relative1sigma=26.7% active=106 pending_batches=106 wave=1 provisional
+[2026-09-20T16:32:38+00:00] parallel9_a2b5cacfbb84 p=0.003 N=12,103 Fjoint=26 FX=13 FZ=16 Fboth=3 decodefail=0 relative1sigma=19.6% active=12 pending_batches=12 wave=1 provisional
+[2026-09-20T16:33:08+00:00] parallel9_a2b5cacfbb84 p=0.003 N=12,413 Fjoint=28 FX=15 FZ=16 Fboth=3 decodefail=0 relative1sigma=18.9% active=2 pending_batches=2 wave=1 provisional
+[2026-09-20T16:33:19+00:00] parallel9_a2b5cacfbb84 p=0.003 N=12,475 Fjoint=29 FX=15 FZ=17 Fboth=3 decodefail=0 relative1sigma=18.5% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:33:19+00:00] parallel9_a2b5cacfbb84 p=0.003 N=12,475 Fjoint=29 FX=15 FZ=17 Fboth=3 decodefail=0 relative1sigma=18.5% active=0 pending_batches=0 wave=- point_done precision_reached
+Preparing parallel8_4c4fb6c67ebc p=0.003; R=7, idle=0, full correlated DEM, fixed beam=2.
+Workers 380/380; single-thread processes; stop checked only after complete waves; memory estimate 184 MiB/worker.
+[2026-09-20T16:33:53+00:00] parallel8_4c4fb6c67ebc p=0.003 N=630 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=124 pending_batches=124 wave=0 provisional
+[2026-09-20T16:34:18+00:00] parallel8_4c4fb6c67ebc p=0.003 N=1,000 Fjoint=1 FX=0 FZ=1 Fboth=0 decodefail=0 relative1sigma=99.9% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:35:21+00:00] parallel8_4c4fb6c67ebc p=0.003 N=1,000 Fjoint=1 FX=0 FZ=1 Fboth=0 decodefail=0 relative1sigma=99.9% active=375 pending_batches=375 wave=1 provisional
+[2026-09-20T16:35:53+00:00] parallel8_4c4fb6c67ebc p=0.003 N=1,064 Fjoint=1 FX=0 FZ=1 Fboth=0 decodefail=0 relative1sigma=100.0% active=374 pending_batches=374 wave=1 provisional
+[2026-09-20T16:36:23+00:00] parallel8_4c4fb6c67ebc p=0.003 N=1,960 Fjoint=2 FX=1 FZ=1 Fboth=0 decodefail=0 relative1sigma=70.7% active=360 pending_batches=360 wave=1 provisional
+[2026-09-20T16:36:54+00:00] parallel8_4c4fb6c67ebc p=0.003 N=4,879 Fjoint=6 FX=1 FZ=5 Fboth=0 decodefail=0 relative1sigma=40.8% active=314 pending_batches=314 wave=1 provisional
+[2026-09-20T16:37:24+00:00] parallel8_4c4fb6c67ebc p=0.003 N=8,975 Fjoint=14 FX=4 FZ=10 Fboth=0 decodefail=0 relative1sigma=26.7% active=250 pending_batches=250 wave=1 provisional
+[2026-09-20T16:37:54+00:00] parallel8_4c4fb6c67ebc p=0.003 N=15,439 Fjoint=27 FX=9 FZ=18 Fboth=0 decodefail=0 relative1sigma=19.2% active=149 pending_batches=149 wave=1 provisional
+[2026-09-20T16:38:24+00:00] parallel8_4c4fb6c67ebc p=0.003 N=21,583 Fjoint=46 FX=21 FZ=28 Fboth=3 decodefail=0 relative1sigma=14.7% active=53 pending_batches=53 wave=1 provisional
+[2026-09-20T16:38:55+00:00] parallel8_4c4fb6c67ebc p=0.003 N=24,463 Fjoint=53 FX=25 FZ=32 Fboth=4 decodefail=0 relative1sigma=13.7% active=8 pending_batches=8 wave=1 provisional
+[2026-09-20T16:39:19+00:00] parallel8_4c4fb6c67ebc p=0.003 N=24,975 Fjoint=55 FX=26 FZ=34 Fboth=5 decodefail=0 relative1sigma=13.5% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:39:19+00:00] parallel8_4c4fb6c67ebc p=0.003 N=24,975 Fjoint=55 FX=26 FZ=34 Fboth=5 decodefail=0 relative1sigma=13.5% active=0 pending_batches=0 wave=- point_done precision_reached
+Preparing parallel9_29757d3627fd p=0.003; R=7, idle=0, full correlated DEM, fixed beam=2.
+Workers 380/380; single-thread processes; stop checked only after complete waves; memory estimate 188 MiB/worker.
+[2026-09-20T16:40:00+00:00] parallel9_29757d3627fd p=0.003 N=642 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=120 pending_batches=120 wave=0 provisional
+[2026-09-20T16:40:29+00:00] parallel9_29757d3627fd p=0.003 N=1,000 Fjoint=5 FX=2 FZ=4 Fboth=1 decodefail=0 relative1sigma=44.6% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:40:58+00:00] parallel9_29757d3627fd p=0.003 N=2,133 Fjoint=6 FX=2 FZ=5 Fboth=1 decodefail=0 relative1sigma=40.8% active=259 pending_batches=259 wave=1 provisional
+[2026-09-20T16:41:29+00:00] parallel9_29757d3627fd p=0.003 N=4,865 Fjoint=12 FX=6 FZ=7 Fboth=1 decodefail=0 relative1sigma=28.8% active=10 pending_batches=10 wave=1 provisional
+[2026-09-20T16:41:51+00:00] parallel9_29757d3627fd p=0.003 N=4,975 Fjoint=13 FX=7 FZ=7 Fboth=1 decodefail=0 relative1sigma=27.7% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:42:11+00:00] parallel9_29757d3627fd p=0.003 N=5,105 Fjoint=13 FX=7 FZ=7 Fboth=1 decodefail=0 relative1sigma=27.7% active=342 pending_batches=342 wave=2 provisional
+[2026-09-20T16:42:41+00:00] parallel9_29757d3627fd p=0.003 N=8,997 Fjoint=18 FX=7 FZ=12 Fboth=1 decodefail=0 relative1sigma=23.5% active=42 pending_batches=42 wave=2 provisional
+[2026-09-20T16:43:11+00:00] parallel9_29757d3627fd p=0.003 N=9,543 Fjoint=21 FX=9 FZ=14 Fboth=2 decodefail=0 relative1sigma=21.8% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:43:16+00:00] parallel9_29757d3627fd p=0.003 N=9,548 Fjoint=21 FX=9 FZ=14 Fboth=2 decodefail=0 relative1sigma=21.8% active=358 pending_batches=358 wave=3 provisional
+[2026-09-20T16:43:46+00:00] parallel9_29757d3627fd p=0.003 N=11,321 Fjoint=22 FX=9 FZ=15 Fboth=2 decodefail=0 relative1sigma=21.3% active=3 pending_batches=3 wave=3 provisional
+[2026-09-20T16:43:56+00:00] parallel9_29757d3627fd p=0.003 N=11,336 Fjoint=22 FX=9 FZ=15 Fboth=2 decodefail=0 relative1sigma=21.3% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:44:16+00:00] parallel9_29757d3627fd p=0.003 N=12,657 Fjoint=24 FX=10 FZ=16 Fboth=2 decodefail=0 relative1sigma=20.4% active=40 pending_batches=40 wave=4 provisional
+[2026-09-20T16:44:40+00:00] parallel9_29757d3627fd p=0.003 N=12,857 Fjoint=26 FX=11 FZ=17 Fboth=2 decodefail=0 relative1sigma=19.6% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:44:40+00:00] parallel9_29757d3627fd p=0.003 N=12,857 Fjoint=26 FX=11 FZ=17 Fboth=2 decodefail=0 relative1sigma=19.6% active=0 pending_batches=0 wave=- point_done precision_reached
+Preparing parallel8_64ed9c3703ea p=0.003; R=7, idle=0, full correlated DEM, fixed beam=2.
+Workers 380/380; single-thread processes; stop checked only after complete waves; memory estimate 184 MiB/worker.
+[2026-09-20T16:45:23+00:00] parallel8_64ed9c3703ea p=0.003 N=636 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=122 pending_batches=122 wave=0 provisional
+[2026-09-20T16:45:54+00:00] parallel8_64ed9c3703ea p=0.003 N=1,000 Fjoint=4 FX=1 FZ=3 Fboth=0 decodefail=0 relative1sigma=49.9% active=0 pending_batches=0 wave=0 provisional
+[2026-09-20T16:45:54+00:00] parallel8_64ed9c3703ea p=0.003 N=1,000 Fjoint=4 FX=1 FZ=3 Fboth=0 decodefail=0 relative1sigma=49.9% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:46:31+00:00] parallel8_64ed9c3703ea p=0.003 N=2,260 Fjoint=5 FX=1 FZ=4 Fboth=0 decodefail=0 relative1sigma=44.7% active=284 pending_batches=284 wave=1 provisional
+[2026-09-20T16:47:02+00:00] parallel8_64ed9c3703ea p=0.003 N=5,889 Fjoint=10 FX=5 FZ=5 Fboth=0 decodefail=0 relative1sigma=31.6% active=24 pending_batches=24 wave=1 provisional
+[2026-09-20T16:47:33+00:00] parallel8_64ed9c3703ea p=0.003 N=6,211 Fjoint=13 FX=6 FZ=7 Fboth=0 decodefail=0 relative1sigma=27.7% active=1 pending_batches=1 wave=1 provisional
+[2026-09-20T16:47:36+00:00] parallel8_64ed9c3703ea p=0.003 N=6,225 Fjoint=14 FX=7 FZ=7 Fboth=0 decodefail=0 relative1sigma=26.7% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:48:04+00:00] parallel8_64ed9c3703ea p=0.003 N=6,849 Fjoint=15 FX=8 FZ=7 Fboth=0 decodefail=0 relative1sigma=25.8% active=327 pending_batches=327 wave=2 provisional
+[2026-09-20T16:48:34+00:00] parallel8_64ed9c3703ea p=0.003 N=10,806 Fjoint=18 FX=9 FZ=9 Fboth=0 decodefail=0 relative1sigma=23.6% active=22 pending_batches=22 wave=2 provisional
+[2026-09-20T16:48:54+00:00] parallel8_64ed9c3703ea p=0.003 N=11,092 Fjoint=22 FX=12 FZ=11 Fboth=1 decodefail=0 relative1sigma=21.3% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:49:04+00:00] parallel8_64ed9c3703ea p=0.003 N=11,668 Fjoint=22 FX=12 FZ=11 Fboth=1 decodefail=0 relative1sigma=21.3% active=228 pending_batches=228 wave=3 provisional
+[2026-09-20T16:49:26+00:00] parallel8_64ed9c3703ea p=0.003 N=12,580 Fjoint=23 FX=12 FZ=12 Fboth=1 decodefail=0 relative1sigma=20.8% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:49:34+00:00] parallel8_64ed9c3703ea p=0.003 N=13,091 Fjoint=23 FX=12 FZ=12 Fboth=1 decodefail=0 relative1sigma=20.8% active=186 pending_batches=186 wave=4 provisional
+[2026-09-20T16:50:06+00:00] parallel8_64ed9c3703ea p=0.003 N=13,643 Fjoint=24 FX=12 FZ=13 Fboth=1 decodefail=0 relative1sigma=20.4% active=2 pending_batches=2 wave=4 provisional
+[2026-09-20T16:50:17+00:00] parallel8_64ed9c3703ea p=0.003 N=13,649 Fjoint=25 FX=13 FZ=13 Fboth=1 decodefail=0 relative1sigma=20.0% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:50:17+00:00] parallel8_64ed9c3703ea p=0.003 N=13,649 Fjoint=25 FX=13 FZ=13 Fboth=1 decodefail=0 relative1sigma=20.0% active=0 pending_batches=0 wave=- point_done precision_reached
+Preparing parallel9_12e4cb50666f p=0.003; R=7, idle=0, full correlated DEM, fixed beam=2.
+Workers 380/380; single-thread processes; stop checked only after complete waves; memory estimate 184 MiB/worker.
+[2026-09-20T16:51:01+00:00] parallel9_12e4cb50666f p=0.003 N=633 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=123 pending_batches=123 wave=0 provisional
+[2026-09-20T16:51:25+00:00] parallel9_12e4cb50666f p=0.003 N=1,000 Fjoint=2 FX=1 FZ=1 Fboth=0 decodefail=0 relative1sigma=70.6% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:51:59+00:00] parallel9_12e4cb50666f p=0.003 N=1,341 Fjoint=2 FX=1 FZ=1 Fboth=0 decodefail=0 relative1sigma=70.7% active=360 pending_batches=360 wave=1 provisional
+[2026-09-20T16:52:29+00:00] parallel9_12e4cb50666f p=0.003 N=11,793 Fjoint=20 FX=9 FZ=11 Fboth=0 decodefail=0 relative1sigma=22.3% active=22 pending_batches=22 wave=1 provisional
+[2026-09-20T16:52:44+00:00] parallel9_12e4cb50666f p=0.003 N=12,475 Fjoint=23 FX=11 FZ=12 Fboth=0 decodefail=0 relative1sigma=20.8% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:52:59+00:00] parallel9_12e4cb50666f p=0.003 N=13,526 Fjoint=23 FX=11 FZ=12 Fboth=0 decodefail=0 relative1sigma=20.8% active=3 pending_batches=3 wave=2 provisional
+[2026-09-20T16:53:30+00:00] parallel9_12e4cb50666f p=0.003 N=13,532 Fjoint=24 FX=11 FZ=13 Fboth=0 decodefail=0 relative1sigma=20.4% active=1 pending_batches=1 wave=2 provisional
+[2026-09-20T16:53:32+00:00] parallel9_12e4cb50666f p=0.003 N=13,535 Fjoint=25 FX=11 FZ=14 Fboth=0 decodefail=0 relative1sigma=20.0% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:53:32+00:00] parallel9_12e4cb50666f p=0.003 N=13,535 Fjoint=25 FX=11 FZ=14 Fboth=0 decodefail=0 relative1sigma=20.0% active=0 pending_batches=0 wave=- point_done precision_reached
+Preparing parallel8_558803c38e91 p=0.003; R=7, idle=0, full correlated DEM, fixed beam=2.
+Workers 380/380; single-thread processes; stop checked only after complete waves; memory estimate 184 MiB/worker.
+[2026-09-20T16:54:06+00:00] parallel8_558803c38e91 p=0.003 N=627 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=125 pending_batches=125 wave=0 provisional
+[2026-09-20T16:54:34+00:00] parallel8_558803c38e91 p=0.003 N=1,000 Fjoint=2 FX=2 FZ=0 Fboth=0 decodefail=0 relative1sigma=70.6% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:55:29+00:00] parallel8_558803c38e91 p=0.003 N=1,589 Fjoint=3 FX=3 FZ=0 Fboth=0 decodefail=0 relative1sigma=57.7% active=352 pending_batches=352 wave=1 provisional
+[2026-09-20T16:55:59+00:00] parallel8_558803c38e91 p=0.003 N=4,570 Fjoint=7 FX=6 FZ=1 Fboth=0 decodefail=0 relative1sigma=37.8% active=255 pending_batches=255 wave=1 provisional
+[2026-09-20T16:56:29+00:00] parallel8_558803c38e91 p=0.003 N=9,964 Fjoint=19 FX=11 FZ=8 Fboth=0 decodefail=0 relative1sigma=22.9% active=81 pending_batches=81 wave=1 provisional
+[2026-09-20T16:56:59+00:00] parallel8_558803c38e91 p=0.003 N=12,413 Fjoint=34 FX=17 FZ=20 Fboth=3 decodefail=0 relative1sigma=17.1% active=2 pending_batches=2 wave=1 provisional
+[2026-09-20T16:57:04+00:00] parallel8_558803c38e91 p=0.003 N=12,475 Fjoint=35 FX=18 FZ=21 Fboth=4 decodefail=0 relative1sigma=16.9% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:57:04+00:00] parallel8_558803c38e91 p=0.003 N=12,475 Fjoint=35 FX=18 FZ=21 Fboth=4 decodefail=0 relative1sigma=16.9% active=0 pending_batches=0 wave=- point_done precision_reached
+Preparing parallel9_ad6ecb11d763 p=0.003; R=7, idle=0, full correlated DEM, fixed beam=2.
+Workers 380/380; single-thread processes; stop checked only after complete waves; memory estimate 184 MiB/worker.
+[2026-09-20T16:57:40+00:00] parallel9_ad6ecb11d763 p=0.003 N=663 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=113 pending_batches=113 wave=0 provisional
+[2026-09-20T16:57:51+00:00] parallel9_ad6ecb11d763 p=0.003 N=1,000 Fjoint=1 FX=1 FZ=0 Fboth=0 decodefail=0 relative1sigma=99.9% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T16:58:54+00:00] parallel9_ad6ecb11d763 p=0.003 N=1,000 Fjoint=1 FX=1 FZ=0 Fboth=0 decodefail=0 relative1sigma=99.9% active=375 pending_batches=375 wave=1 provisional
+[2026-09-20T16:59:25+00:00] parallel9_ad6ecb11d763 p=0.003 N=1,512 Fjoint=2 FX=1 FZ=1 Fboth=0 decodefail=0 relative1sigma=70.7% active=367 pending_batches=367 wave=1 provisional
+[2026-09-20T16:59:55+00:00] parallel9_ad6ecb11d763 p=0.003 N=4,264 Fjoint=8 FX=4 FZ=4 Fboth=0 decodefail=0 relative1sigma=35.3% active=324 pending_batches=324 wave=1 provisional
+[2026-09-20T17:00:25+00:00] parallel9_ad6ecb11d763 p=0.003 N=7,208 Fjoint=14 FX=6 FZ=8 Fboth=0 decodefail=0 relative1sigma=26.7% active=278 pending_batches=278 wave=1 provisional
+[2026-09-20T17:00:55+00:00] parallel9_ad6ecb11d763 p=0.003 N=11,983 Fjoint=21 FX=10 FZ=11 Fboth=0 decodefail=0 relative1sigma=21.8% active=203 pending_batches=203 wave=1 provisional
+[2026-09-20T17:01:25+00:00] parallel9_ad6ecb11d763 p=0.003 N=19,215 Fjoint=35 FX=19 FZ=18 Fboth=2 decodefail=0 relative1sigma=16.9% active=90 pending_batches=90 wave=1 provisional
+[2026-09-20T17:01:55+00:00] parallel9_ad6ecb11d763 p=0.003 N=24,335 Fjoint=47 FX=26 FZ=24 Fboth=3 decodefail=0 relative1sigma=14.6% active=10 pending_batches=10 wave=1 provisional
+[2026-09-20T17:02:13+00:00] parallel9_ad6ecb11d763 p=0.003 N=24,975 Fjoint=49 FX=26 FZ=26 Fboth=3 decodefail=0 relative1sigma=14.3% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:02:13+00:00] parallel9_ad6ecb11d763 p=0.003 N=24,975 Fjoint=49 FX=26 FZ=26 Fboth=3 decodefail=0 relative1sigma=14.3% active=0 pending_batches=0 wave=- point_done precision_reached
+Preparing parallel8_9e4d4ad0009c p=0.003; R=7, idle=0, full correlated DEM, fixed beam=2.
+Workers 380/380; single-thread processes; stop checked only after complete waves; memory estimate 189 MiB/worker.
+[2026-09-20T17:02:47+00:00] parallel8_9e4d4ad0009c p=0.003 N=636 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=122 pending_batches=122 wave=0 provisional
+[2026-09-20T17:03:07+00:00] parallel8_9e4d4ad0009c p=0.003 N=1,000 Fjoint=3 FX=1 FZ=2 Fboth=0 decodefail=0 relative1sigma=57.6% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:03:48+00:00] parallel8_9e4d4ad0009c p=0.003 N=2,400 Fjoint=4 FX=2 FZ=2 Fboth=0 decodefail=0 relative1sigma=50.0% active=296 pending_batches=296 wave=1 provisional
+[2026-09-20T17:04:18+00:00] parallel8_9e4d4ad0009c p=0.003 N=6,149 Fjoint=9 FX=6 FZ=3 Fboth=0 decodefail=0 relative1sigma=33.3% active=108 pending_batches=108 wave=1 provisional
+[2026-09-20T17:04:49+00:00] parallel8_9e4d4ad0009c p=0.003 N=8,289 Fjoint=19 FX=12 FZ=8 Fboth=1 decodefail=0 relative1sigma=22.9% active=1 pending_batches=1 wave=1 provisional
+[2026-09-20T17:04:55+00:00] parallel8_9e4d4ad0009c p=0.003 N=8,309 Fjoint=19 FX=12 FZ=8 Fboth=1 decodefail=0 relative1sigma=22.9% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:05:19+00:00] parallel8_9e4d4ad0009c p=0.003 N=10,054 Fjoint=21 FX=13 FZ=9 Fboth=1 decodefail=0 relative1sigma=21.8% active=122 pending_batches=122 wave=2 provisional
+[2026-09-20T17:05:39+00:00] parallel8_9e4d4ad0009c p=0.003 N=10,908 Fjoint=27 FX=16 FZ=12 Fboth=1 decodefail=0 relative1sigma=19.2% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:05:39+00:00] parallel8_9e4d4ad0009c p=0.003 N=10,908 Fjoint=27 FX=16 FZ=12 Fboth=1 decodefail=0 relative1sigma=19.2% active=0 pending_batches=0 wave=- point_done precision_reached
+Preparing parallel9_4ec1ca467df4 p=0.003; R=7, idle=0, full correlated DEM, fixed beam=2.
+Workers 380/380; single-thread processes; stop checked only after complete waves; memory estimate 189 MiB/worker.
+[2026-09-20T17:06:16+00:00] parallel9_4ec1ca467df4 p=0.003 N=621 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=127 pending_batches=127 wave=0 provisional
+[2026-09-20T17:06:42+00:00] parallel9_4ec1ca467df4 p=0.003 N=1,000 Fjoint=4 FX=3 FZ=2 Fboth=1 decodefail=0 relative1sigma=49.9% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:07:16+00:00] parallel9_4ec1ca467df4 p=0.003 N=2,260 Fjoint=4 FX=3 FZ=2 Fboth=1 decodefail=0 relative1sigma=50.0% active=284 pending_batches=284 wave=1 provisional
+[2026-09-20T17:07:47+00:00] parallel9_4ec1ca467df4 p=0.003 N=5,749 Fjoint=8 FX=3 FZ=6 Fboth=1 decodefail=0 relative1sigma=35.3% active=34 pending_batches=34 wave=1 provisional
+[2026-09-20T17:08:18+00:00] parallel9_4ec1ca467df4 p=0.003 N=6,211 Fjoint=16 FX=8 FZ=9 Fboth=1 decodefail=0 relative1sigma=25.0% active=1 pending_batches=1 wave=1 provisional
+[2026-09-20T17:08:47+00:00] parallel9_4ec1ca467df4 p=0.003 N=6,225 Fjoint=17 FX=9 FZ=10 Fboth=2 decodefail=0 relative1sigma=24.2% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:09:01+00:00] parallel9_4ec1ca467df4 p=0.003 N=6,457 Fjoint=17 FX=9 FZ=10 Fboth=2 decodefail=0 relative1sigma=24.2% active=335 pending_batches=335 wave=2 provisional
+[2026-09-20T17:09:32+00:00] parallel9_4ec1ca467df4 p=0.003 N=9,098 Fjoint=22 FX=12 FZ=12 Fboth=2 decodefail=0 relative1sigma=21.3% active=4 pending_batches=4 wave=2 provisional
+[2026-09-20T17:09:51+00:00] parallel9_4ec1ca467df4 p=0.003 N=9,130 Fjoint=23 FX=12 FZ=13 Fboth=2 decodefail=0 relative1sigma=20.8% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:10:02+00:00] parallel9_4ec1ca467df4 p=0.003 N=9,806 Fjoint=23 FX=12 FZ=13 Fboth=2 decodefail=0 relative1sigma=20.8% active=31 pending_batches=31 wave=3 provisional
+[2026-09-20T17:10:26+00:00] parallel9_4ec1ca467df4 p=0.003 N=9,899 Fjoint=24 FX=12 FZ=14 Fboth=2 decodefail=0 relative1sigma=20.4% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:10:32+00:00] parallel9_4ec1ca467df4 p=0.003 N=10,177 Fjoint=24 FX=12 FZ=14 Fboth=2 decodefail=0 relative1sigma=20.4% active=55 pending_batches=55 wave=4 provisional
+[2026-09-20T17:11:02+00:00] parallel9_4ec1ca467df4 p=0.003 N=10,285 Fjoint=24 FX=12 FZ=14 Fboth=2 decodefail=0 relative1sigma=20.4% active=1 pending_batches=1 wave=4 provisional
+[2026-09-20T17:11:06+00:00] parallel9_4ec1ca467df4 p=0.003 N=10,287 Fjoint=24 FX=12 FZ=14 Fboth=2 decodefail=0 relative1sigma=20.4% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:11:23+00:00] parallel9_4ec1ca467df4 p=0.003 N=10,691 Fjoint=25 FX=12 FZ=15 Fboth=2 decodefail=0 relative1sigma=20.0% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:11:23+00:00] parallel9_4ec1ca467df4 p=0.003 N=10,691 Fjoint=25 FX=12 FZ=15 Fboth=2 decodefail=0 relative1sigma=20.0% active=0 pending_batches=0 wave=- point_done precision_reached
+Preparing parallel8_d4168a22d247 p=0.003; R=7, idle=0, full correlated DEM, fixed beam=2.
+Workers 380/380; single-thread processes; stop checked only after complete waves; memory estimate 189 MiB/worker.
+[2026-09-20T17:11:55+00:00] parallel8_d4168a22d247 p=0.003 N=636 Fjoint=1 FX=0 FZ=1 Fboth=0 decodefail=0 relative1sigma=99.9% active=122 pending_batches=122 wave=0 provisional
+[2026-09-20T17:12:25+00:00] parallel8_d4168a22d247 p=0.003 N=1,000 Fjoint=3 FX=2 FZ=2 Fboth=1 decodefail=0 relative1sigma=57.6% active=0 pending_batches=0 wave=0 provisional
+[2026-09-20T17:12:25+00:00] parallel8_d4168a22d247 p=0.003 N=1,000 Fjoint=3 FX=2 FZ=2 Fboth=1 decodefail=0 relative1sigma=57.6% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:13:08+00:00] parallel8_d4168a22d247 p=0.003 N=2,200 Fjoint=3 FX=2 FZ=2 Fboth=1 decodefail=0 relative1sigma=57.7% active=306 pending_batches=306 wave=1 provisional
+[2026-09-20T17:13:38+00:00] parallel8_d4168a22d247 p=0.003 N=6,469 Fjoint=13 FX=8 FZ=7 Fboth=2 decodefail=0 relative1sigma=27.7% active=92 pending_batches=92 wave=1 provisional
+[2026-09-20T17:14:08+00:00] parallel8_d4168a22d247 p=0.003 N=8,309 Fjoint=17 FX=9 FZ=10 Fboth=2 decodefail=0 relative1sigma=24.2% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:14:21+00:00] parallel8_d4168a22d247 p=0.003 N=8,320 Fjoint=17 FX=9 FZ=10 Fboth=2 decodefail=0 relative1sigma=24.2% active=353 pending_batches=353 wave=2 provisional
+[2026-09-20T17:14:51+00:00] parallel8_d4168a22d247 p=0.003 N=11,821 Fjoint=20 FX=12 FZ=10 Fboth=2 decodefail=0 relative1sigma=22.3% active=34 pending_batches=34 wave=2 provisional
+[2026-09-20T17:15:10+00:00] parallel8_d4168a22d247 p=0.003 N=12,195 Fjoint=23 FX=14 FZ=12 Fboth=3 decodefail=0 relative1sigma=20.8% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:15:21+00:00] parallel8_d4168a22d247 p=0.003 N=13,000 Fjoint=23 FX=14 FZ=12 Fboth=3 decodefail=0 relative1sigma=20.8% active=77 pending_batches=77 wave=3 provisional
+[2026-09-20T17:15:37+00:00] parallel8_d4168a22d247 p=0.003 N=13,231 Fjoint=25 FX=14 FZ=14 Fboth=3 decodefail=0 relative1sigma=20.0% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:15:37+00:00] parallel8_d4168a22d247 p=0.003 N=13,231 Fjoint=25 FX=14 FZ=14 Fboth=3 decodefail=0 relative1sigma=20.0% active=0 pending_batches=0 wave=- point_done precision_reached
+Preparing w7_baseline p=0.0025; R=7, idle=0, full correlated DEM, fixed beam=2.
+Workers 380/380; single-thread processes; stop checked only after complete waves; memory estimate 184 MiB/worker.
+[2026-09-20T17:16:04+00:00] w7_baseline p=0.0025 N=675 Fjoint=1 FX=0 FZ=1 Fboth=0 decodefail=0 relative1sigma=99.9% active=109 pending_batches=109 wave=0 provisional
+[2026-09-20T17:16:11+00:00] w7_baseline p=0.0025 N=1,000 Fjoint=1 FX=0 FZ=1 Fboth=0 decodefail=0 relative1sigma=99.9% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:17:11+00:00] w7_baseline p=0.0025 N=1,064 Fjoint=1 FX=0 FZ=1 Fboth=0 decodefail=0 relative1sigma=100.0% active=374 pending_batches=374 wave=1 provisional
+[2026-09-20T17:17:41+00:00] w7_baseline p=0.0025 N=3,368 Fjoint=2 FX=0 FZ=2 Fboth=0 decodefail=0 relative1sigma=70.7% active=338 pending_batches=338 wave=1 provisional
+[2026-09-20T17:18:11+00:00] w7_baseline p=0.0025 N=10,255 Fjoint=6 FX=3 FZ=3 Fboth=0 decodefail=0 relative1sigma=40.8% active=230 pending_batches=230 wave=1 provisional
+[2026-09-20T17:18:41+00:00] w7_baseline p=0.0025 N=18,255 Fjoint=13 FX=7 FZ=6 Fboth=0 decodefail=0 relative1sigma=27.7% active=105 pending_batches=105 wave=1 provisional
+[2026-09-20T17:19:11+00:00] w7_baseline p=0.0025 N=24,719 Fjoint=22 FX=12 FZ=11 Fboth=1 decodefail=0 relative1sigma=21.3% active=4 pending_batches=4 wave=1 provisional
+[2026-09-20T17:19:43+00:00] w7_baseline p=0.0025 N=24,911 Fjoint=22 FX=12 FZ=11 Fboth=1 decodefail=0 relative1sigma=21.3% active=1 pending_batches=1 wave=1 provisional
+[2026-09-20T17:19:46+00:00] w7_baseline p=0.0025 N=24,975 Fjoint=22 FX=12 FZ=11 Fboth=1 decodefail=0 relative1sigma=21.3% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:20:13+00:00] w7_baseline p=0.0025 N=28,122 Fjoint=24 FX=13 FZ=12 Fboth=1 decodefail=0 relative1sigma=20.4% active=26 pending_batches=26 wave=2 provisional
+[2026-09-20T17:20:24+00:00] w7_baseline p=0.0025 N=28,356 Fjoint=25 FX=14 FZ=12 Fboth=1 decodefail=0 relative1sigma=20.0% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:20:24+00:00] w7_baseline p=0.0025 N=28,356 Fjoint=25 FX=14 FZ=12 Fboth=1 decodefail=0 relative1sigma=20.0% active=0 pending_batches=0 wave=- point_done precision_reached
+Preparing parallel8_215be26722e3 p=0.0025; R=7, idle=0, full correlated DEM, fixed beam=2.
+Workers 380/380; single-thread processes; stop checked only after complete waves; memory estimate 184 MiB/worker.
+[2026-09-20T17:20:54+00:00] parallel8_215be26722e3 p=0.0025 N=687 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=105 pending_batches=105 wave=0 provisional
+[2026-09-20T17:21:02+00:00] parallel8_215be26722e3 p=0.0025 N=1,000 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:21:25+00:00] parallel8_215be26722e3 p=0.0025 N=2,000 Fjoint=2 FX=1 FZ=1 Fboth=0 decodefail=0 relative1sigma=70.7% active=0 pending_batches=0 wave=1 provisional
+[2026-09-20T17:21:25+00:00] parallel8_215be26722e3 p=0.0025 N=2,000 Fjoint=2 FX=1 FZ=1 Fboth=0 decodefail=0 relative1sigma=70.7% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:22:22+00:00] parallel8_215be26722e3 p=0.0025 N=2,061 Fjoint=2 FX=1 FZ=1 Fboth=0 decodefail=0 relative1sigma=70.7% active=376 pending_batches=376 wave=2 provisional
+[2026-09-20T17:22:54+00:00] parallel8_215be26722e3 p=0.0025 N=3,952 Fjoint=2 FX=1 FZ=1 Fboth=0 decodefail=0 relative1sigma=70.7% active=345 pending_batches=345 wave=2 provisional
+[2026-09-20T17:23:24+00:00] parallel8_215be26722e3 p=0.0025 N=7,673 Fjoint=9 FX=4 FZ=5 Fboth=0 decodefail=0 relative1sigma=33.3% active=284 pending_batches=284 wave=2 provisional
+[2026-09-20T17:23:54+00:00] parallel8_215be26722e3 p=0.0025 N=15,176 Fjoint=16 FX=8 FZ=8 Fboth=0 decodefail=0 relative1sigma=25.0% active=161 pending_batches=161 wave=2 provisional
+[2026-09-20T17:24:25+00:00] parallel8_215be26722e3 p=0.0025 N=23,572 Fjoint=25 FX=14 FZ=12 Fboth=1 decodefail=0 relative1sigma=20.0% active=23 pending_batches=23 wave=2 provisional
+[2026-09-20T17:24:49+00:00] parallel8_215be26722e3 p=0.0025 N=24,975 Fjoint=33 FX=19 FZ=16 Fboth=2 decodefail=0 relative1sigma=17.4% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:24:49+00:00] parallel8_215be26722e3 p=0.0025 N=24,975 Fjoint=33 FX=19 FZ=16 Fboth=2 decodefail=0 relative1sigma=17.4% active=0 pending_batches=0 wave=- point_done precision_reached
+Preparing parallel9_a2b5cacfbb84 p=0.0025; R=7, idle=0, full correlated DEM, fixed beam=2.
+Workers 380/380; single-thread processes; stop checked only after complete waves; memory estimate 189 MiB/worker.
+[2026-09-20T17:25:19+00:00] parallel9_a2b5cacfbb84 p=0.0025 N=669 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=111 pending_batches=111 wave=0 provisional
+[2026-09-20T17:25:28+00:00] parallel9_a2b5cacfbb84 p=0.0025 N=1,000 Fjoint=1 FX=1 FZ=0 Fboth=0 decodefail=0 relative1sigma=99.9% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:26:31+00:00] parallel9_a2b5cacfbb84 p=0.0025 N=1,128 Fjoint=1 FX=1 FZ=0 Fboth=0 decodefail=0 relative1sigma=100.0% active=373 pending_batches=373 wave=1 provisional
+[2026-09-20T17:27:02+00:00] parallel9_a2b5cacfbb84 p=0.0025 N=3,240 Fjoint=1 FX=1 FZ=0 Fboth=0 decodefail=0 relative1sigma=100.0% active=340 pending_batches=340 wave=1 provisional
+[2026-09-20T17:27:32+00:00] parallel9_a2b5cacfbb84 p=0.0025 N=7,272 Fjoint=1 FX=1 FZ=0 Fboth=0 decodefail=0 relative1sigma=100.0% active=277 pending_batches=277 wave=1 provisional
+[2026-09-20T17:28:02+00:00] parallel9_a2b5cacfbb84 p=0.0025 N=15,055 Fjoint=3 FX=3 FZ=0 Fboth=0 decodefail=0 relative1sigma=57.7% active=155 pending_batches=155 wave=1 provisional
+[2026-09-20T17:28:33+00:00] parallel9_a2b5cacfbb84 p=0.0025 N=23,439 Fjoint=8 FX=5 FZ=3 Fboth=0 decodefail=0 relative1sigma=35.3% active=24 pending_batches=24 wave=1 provisional
+[2026-09-20T17:29:04+00:00] parallel9_a2b5cacfbb84 p=0.0025 N=24,911 Fjoint=10 FX=7 FZ=3 Fboth=0 decodefail=0 relative1sigma=31.6% active=1 pending_batches=1 wave=1 provisional
+[2026-09-20T17:29:08+00:00] parallel9_a2b5cacfbb84 p=0.0025 N=24,975 Fjoint=11 FX=8 FZ=3 Fboth=0 decodefail=0 relative1sigma=30.1% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:29:35+00:00] parallel9_a2b5cacfbb84 p=0.0025 N=24,975 Fjoint=11 FX=8 FZ=3 Fboth=0 decodefail=0 relative1sigma=30.1% active=380 pending_batches=380 wave=2 provisional
+[2026-09-20T17:30:07+00:00] parallel9_a2b5cacfbb84 p=0.0025 N=25,167 Fjoint=11 FX=8 FZ=3 Fboth=0 decodefail=0 relative1sigma=30.1% active=377 pending_batches=377 wave=2 provisional
+[2026-09-20T17:30:37+00:00] parallel9_a2b5cacfbb84 p=0.0025 N=27,343 Fjoint=12 FX=9 FZ=3 Fboth=0 decodefail=0 relative1sigma=28.9% active=343 pending_batches=343 wave=2 provisional
+[2026-09-20T17:31:08+00:00] parallel9_a2b5cacfbb84 p=0.0025 N=30,415 Fjoint=16 FX=11 FZ=5 Fboth=0 decodefail=0 relative1sigma=25.0% active=295 pending_batches=295 wave=2 provisional
+[2026-09-20T17:31:38+00:00] parallel9_a2b5cacfbb84 p=0.0025 N=36,815 Fjoint=18 FX=11 FZ=7 Fboth=0 decodefail=0 relative1sigma=23.6% active=195 pending_batches=195 wave=2 provisional
+[2026-09-20T17:32:08+00:00] parallel9_a2b5cacfbb84 p=0.0025 N=47,247 Fjoint=33 FX=18 FZ=15 Fboth=0 decodefail=0 relative1sigma=17.4% active=32 pending_batches=32 wave=2 provisional
+[2026-09-20T17:32:33+00:00] parallel9_a2b5cacfbb84 p=0.0025 N=49,295 Fjoint=34 FX=18 FZ=16 Fboth=0 decodefail=0 relative1sigma=17.1% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:32:33+00:00] parallel9_a2b5cacfbb84 p=0.0025 N=49,295 Fjoint=34 FX=18 FZ=16 Fboth=0 decodefail=0 relative1sigma=17.1% active=0 pending_batches=0 wave=- point_done precision_reached
+Preparing parallel8_4c4fb6c67ebc p=0.0025; R=7, idle=0, full correlated DEM, fixed beam=2.
+Workers 380/380; single-thread processes; stop checked only after complete waves; memory estimate 189 MiB/worker.
+[2026-09-20T17:33:02+00:00] parallel8_4c4fb6c67ebc p=0.0025 N=687 Fjoint=2 FX=1 FZ=1 Fboth=0 decodefail=0 relative1sigma=70.6% active=105 pending_batches=105 wave=0 provisional
+[2026-09-20T17:33:26+00:00] parallel8_4c4fb6c67ebc p=0.0025 N=1,000 Fjoint=2 FX=1 FZ=1 Fboth=0 decodefail=0 relative1sigma=70.6% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:34:17+00:00] parallel8_4c4fb6c67ebc p=0.0025 N=2,364 Fjoint=3 FX=2 FZ=1 Fboth=0 decodefail=0 relative1sigma=57.7% active=327 pending_batches=327 wave=1 provisional
+[2026-09-20T17:34:47+00:00] parallel8_4c4fb6c67ebc p=0.0025 N=8,383 Fjoint=3 FX=2 FZ=1 Fboth=0 decodefail=0 relative1sigma=57.7% active=132 pending_batches=132 wave=1 provisional
+[2026-09-20T17:35:18+00:00] parallel8_4c4fb6c67ebc p=0.0025 N=12,413 Fjoint=6 FX=5 FZ=1 Fboth=0 decodefail=0 relative1sigma=40.8% active=2 pending_batches=2 wave=1 provisional
+[2026-09-20T17:35:32+00:00] parallel8_4c4fb6c67ebc p=0.0025 N=12,475 Fjoint=7 FX=6 FZ=2 Fboth=1 decodefail=0 relative1sigma=37.8% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:35:48+00:00] parallel8_4c4fb6c67ebc p=0.0025 N=12,475 Fjoint=7 FX=6 FZ=2 Fboth=1 decodefail=0 relative1sigma=37.8% active=380 pending_batches=380 wave=2 provisional
+[2026-09-20T17:36:19+00:00] parallel8_4c4fb6c67ebc p=0.0025 N=12,475 Fjoint=7 FX=6 FZ=2 Fboth=1 decodefail=0 relative1sigma=37.8% active=380 pending_batches=380 wave=2 provisional
+[2026-09-20T17:36:49+00:00] parallel8_4c4fb6c67ebc p=0.0025 N=14,267 Fjoint=8 FX=7 FZ=2 Fboth=1 decodefail=0 relative1sigma=35.3% active=352 pending_batches=352 wave=2 provisional
+[2026-09-20T17:37:19+00:00] parallel8_4c4fb6c67ebc p=0.0025 N=34,427 Fjoint=21 FX=13 FZ=9 Fboth=1 decodefail=0 relative1sigma=21.8% active=37 pending_batches=37 wave=2 provisional
+[2026-09-20T17:37:30+00:00] parallel8_4c4fb6c67ebc p=0.0025 N=36,795 Fjoint=28 FX=17 FZ=14 Fboth=3 decodefail=0 relative1sigma=18.9% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:37:30+00:00] parallel8_4c4fb6c67ebc p=0.0025 N=36,795 Fjoint=28 FX=17 FZ=14 Fboth=3 decodefail=0 relative1sigma=18.9% active=0 pending_batches=0 wave=- point_done precision_reached
+Preparing parallel9_29757d3627fd p=0.0025; R=7, idle=0, full correlated DEM, fixed beam=2.
+Workers 380/380; single-thread processes; stop checked only after complete waves; memory estimate 180 MiB/worker.
+[2026-09-20T17:37:42+00:00] parallel9_29757d3627fd p=0.0025 N=651 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=117 pending_batches=117 wave=0 provisional
+[2026-09-20T17:37:52+00:00] parallel9_29757d3627fd p=0.0025 N=1,000 Fjoint=1 FX=1 FZ=0 Fboth=0 decodefail=0 relative1sigma=99.9% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:38:23+00:00] parallel9_29757d3627fd p=0.0025 N=1,000 Fjoint=1 FX=1 FZ=0 Fboth=0 decodefail=0 relative1sigma=99.9% active=375 pending_batches=375 wave=1 provisional
+[2026-09-20T17:38:53+00:00] parallel9_29757d3627fd p=0.0025 N=10,472 Fjoint=9 FX=5 FZ=4 Fboth=0 decodefail=0 relative1sigma=33.3% active=227 pending_batches=227 wave=1 provisional
+[2026-09-20T17:39:24+00:00] parallel9_29757d3627fd p=0.0025 N=24,911 Fjoint=22 FX=10 FZ=12 Fboth=0 decodefail=0 relative1sigma=21.3% active=1 pending_batches=1 wave=1 provisional
+[2026-09-20T17:39:30+00:00] parallel9_29757d3627fd p=0.0025 N=24,975 Fjoint=22 FX=10 FZ=12 Fboth=0 decodefail=0 relative1sigma=21.3% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:39:47+00:00] parallel9_29757d3627fd p=0.0025 N=28,356 Fjoint=25 FX=11 FZ=14 Fboth=0 decodefail=0 relative1sigma=20.0% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:39:47+00:00] parallel9_29757d3627fd p=0.0025 N=28,356 Fjoint=25 FX=11 FZ=14 Fboth=0 decodefail=0 relative1sigma=20.0% active=0 pending_batches=0 wave=- point_done precision_reached
+Preparing parallel8_64ed9c3703ea p=0.0025; R=7, idle=0, full correlated DEM, fixed beam=2.
+Workers 380/380; single-thread processes; stop checked only after complete waves; memory estimate 189 MiB/worker.
+[2026-09-20T17:40:00+00:00] parallel8_64ed9c3703ea p=0.0025 N=648 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=118 pending_batches=118 wave=0 provisional
+[2026-09-20T17:40:03+00:00] parallel8_64ed9c3703ea p=0.0025 N=1,000 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:40:10+00:00] parallel8_64ed9c3703ea p=0.0025 N=2,000 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:40:25+00:00] parallel8_64ed9c3703ea p=0.0025 N=4,000 Fjoint=1 FX=1 FZ=0 Fboth=0 decodefail=0 relative1sigma=100.0% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:40:48+00:00] parallel8_64ed9c3703ea p=0.0025 N=4,000 Fjoint=1 FX=1 FZ=0 Fboth=0 decodefail=0 relative1sigma=100.0% active=380 pending_batches=380 wave=3 provisional
+[2026-09-20T17:41:18+00:00] parallel8_64ed9c3703ea p=0.0025 N=5,856 Fjoint=1 FX=1 FZ=0 Fboth=0 decodefail=0 relative1sigma=100.0% active=351 pending_batches=351 wave=3 provisional
+[2026-09-20T17:41:49+00:00] parallel8_64ed9c3703ea p=0.0025 N=28,128 Fjoint=18 FX=9 FZ=9 Fboth=0 decodefail=0 relative1sigma=23.6% active=3 pending_batches=3 wave=3 provisional
+[2026-09-20T17:41:58+00:00] parallel8_64ed9c3703ea p=0.0025 N=28,320 Fjoint=20 FX=10 FZ=11 Fboth=1 decodefail=0 relative1sigma=22.4% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:42:19+00:00] parallel8_64ed9c3703ea p=0.0025 N=34,140 Fjoint=23 FX=12 FZ=12 Fboth=1 decodefail=0 relative1sigma=20.8% active=65 pending_batches=65 wave=4 provisional
+[2026-09-20T17:42:30+00:00] parallel8_64ed9c3703ea p=0.0025 N=35,375 Fjoint=26 FX=15 FZ=13 Fboth=2 decodefail=0 relative1sigma=19.6% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:42:30+00:00] parallel8_64ed9c3703ea p=0.0025 N=35,375 Fjoint=26 FX=15 FZ=13 Fboth=2 decodefail=0 relative1sigma=19.6% active=0 pending_batches=0 wave=- point_done precision_reached
+Preparing parallel9_12e4cb50666f p=0.0025; R=7, idle=0, full correlated DEM, fixed beam=2.
+Workers 380/380; single-thread processes; stop checked only after complete waves; memory estimate 184 MiB/worker.
+[2026-09-20T17:42:43+00:00] parallel9_12e4cb50666f p=0.0025 N=657 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=115 pending_batches=115 wave=0 provisional
+[2026-09-20T17:42:45+00:00] parallel9_12e4cb50666f p=0.0025 N=1,000 Fjoint=1 FX=1 FZ=0 Fboth=0 decodefail=0 relative1sigma=99.9% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:43:16+00:00] parallel9_12e4cb50666f p=0.0025 N=1,000 Fjoint=1 FX=1 FZ=0 Fboth=0 decodefail=0 relative1sigma=99.9% active=375 pending_batches=375 wave=1 provisional
+[2026-09-20T17:43:46+00:00] parallel9_12e4cb50666f p=0.0025 N=11,752 Fjoint=5 FX=2 FZ=3 Fboth=0 decodefail=0 relative1sigma=44.7% active=207 pending_batches=207 wave=1 provisional
+[2026-09-20T17:44:11+00:00] parallel9_12e4cb50666f p=0.0025 N=24,975 Fjoint=17 FX=10 FZ=7 Fboth=0 decodefail=0 relative1sigma=24.2% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:44:17+00:00] parallel9_12e4cb50666f p=0.0025 N=24,975 Fjoint=17 FX=10 FZ=7 Fboth=0 decodefail=0 relative1sigma=24.2% active=379 pending_batches=379 wave=2 provisional
+[2026-09-20T17:44:47+00:00] parallel9_12e4cb50666f p=0.0025 N=36,424 Fjoint=23 FX=12 FZ=11 Fboth=0 decodefail=0 relative1sigma=20.8% active=9 pending_batches=9 wave=2 provisional
+[2026-09-20T17:45:02+00:00] parallel9_12e4cb50666f p=0.0025 N=36,703 Fjoint=26 FX=13 FZ=13 Fboth=0 decodefail=0 relative1sigma=19.6% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:45:02+00:00] parallel9_12e4cb50666f p=0.0025 N=36,703 Fjoint=26 FX=13 FZ=13 Fboth=0 decodefail=0 relative1sigma=19.6% active=0 pending_batches=0 wave=- point_done precision_reached
+Preparing parallel8_558803c38e91 p=0.0025; R=7, idle=0, full correlated DEM, fixed beam=2.
+Workers 380/380; single-thread processes; stop checked only after complete waves; memory estimate 184 MiB/worker.
+[2026-09-20T17:45:15+00:00] parallel8_558803c38e91 p=0.0025 N=651 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=117 pending_batches=117 wave=0 provisional
+[2026-09-20T17:45:26+00:00] parallel8_558803c38e91 p=0.0025 N=1,000 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:45:37+00:00] parallel8_558803c38e91 p=0.0025 N=2,000 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:45:45+00:00] parallel8_558803c38e91 p=0.0025 N=3,898 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=17 pending_batches=17 wave=2 provisional
+[2026-09-20T17:45:59+00:00] parallel8_558803c38e91 p=0.0025 N=4,000 Fjoint=1 FX=1 FZ=1 Fboth=1 decodefail=0 relative1sigma=100.0% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:46:23+00:00] parallel8_558803c38e91 p=0.0025 N=4,000 Fjoint=1 FX=1 FZ=1 Fboth=1 decodefail=0 relative1sigma=100.0% active=380 pending_batches=380 wave=3 provisional
+[2026-09-20T17:46:53+00:00] parallel8_558803c38e91 p=0.0025 N=6,048 Fjoint=2 FX=2 FZ=1 Fboth=1 decodefail=0 relative1sigma=70.7% active=348 pending_batches=348 wave=3 provisional
+[2026-09-20T17:47:24+00:00] parallel8_558803c38e91 p=0.0025 N=27,808 Fjoint=28 FX=15 FZ=17 Fboth=4 decodefail=0 relative1sigma=18.9% active=8 pending_batches=8 wave=3 provisional
+[2026-09-20T17:47:33+00:00] parallel8_558803c38e91 p=0.0025 N=28,320 Fjoint=33 FX=19 FZ=19 Fboth=5 decodefail=0 relative1sigma=17.4% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:47:33+00:00] parallel8_558803c38e91 p=0.0025 N=28,320 Fjoint=33 FX=19 FZ=19 Fboth=5 decodefail=0 relative1sigma=17.4% active=0 pending_batches=0 wave=- point_done precision_reached
+Preparing parallel9_ad6ecb11d763 p=0.0025; R=7, idle=0, full correlated DEM, fixed beam=2.
+Workers 380/380; single-thread processes; stop checked only after complete waves; memory estimate 189 MiB/worker.
+[2026-09-20T17:47:47+00:00] parallel9_ad6ecb11d763 p=0.0025 N=654 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=116 pending_batches=116 wave=0 provisional
+[2026-09-20T17:47:56+00:00] parallel9_ad6ecb11d763 p=0.0025 N=1,000 Fjoint=1 FX=0 FZ=1 Fboth=0 decodefail=0 relative1sigma=99.9% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:48:25+00:00] parallel9_ad6ecb11d763 p=0.0025 N=1,000 Fjoint=1 FX=0 FZ=1 Fboth=0 decodefail=0 relative1sigma=99.9% active=375 pending_batches=375 wave=1 provisional
+[2026-09-20T17:48:55+00:00] parallel9_ad6ecb11d763 p=0.0025 N=10,575 Fjoint=8 FX=3 FZ=5 Fboth=0 decodefail=0 relative1sigma=35.3% active=225 pending_batches=225 wave=1 provisional
+[2026-09-20T17:49:22+00:00] parallel9_ad6ecb11d763 p=0.0025 N=24,975 Fjoint=27 FX=14 FZ=14 Fboth=1 decodefail=0 relative1sigma=19.2% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:49:22+00:00] parallel9_ad6ecb11d763 p=0.0025 N=24,975 Fjoint=27 FX=14 FZ=14 Fboth=1 decodefail=0 relative1sigma=19.2% active=0 pending_batches=0 wave=- point_done precision_reached
+Preparing parallel8_9e4d4ad0009c p=0.0025; R=7, idle=0, full correlated DEM, fixed beam=2.
+Workers 380/380; single-thread processes; stop checked only after complete waves; memory estimate 184 MiB/worker.
+[2026-09-20T17:49:35+00:00] parallel8_9e4d4ad0009c p=0.0025 N=660 Fjoint=0 FX=0 FZ=0 Fboth=0 decodefail=0 relative1sigma=n/a active=114 pending_batches=114 wave=0 provisional
+[2026-09-20T17:49:41+00:00] parallel8_9e4d4ad0009c p=0.0025 N=1,000 Fjoint=1 FX=0 FZ=1 Fboth=0 decodefail=0 relative1sigma=99.9% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:50:11+00:00] parallel8_9e4d4ad0009c p=0.0025 N=1,000 Fjoint=1 FX=0 FZ=1 Fboth=0 decodefail=0 relative1sigma=99.9% active=375 pending_batches=375 wave=1 provisional
+[2026-09-20T17:50:41+00:00] parallel8_9e4d4ad0009c p=0.0025 N=10,383 Fjoint=4 FX=2 FZ=2 Fboth=0 decodefail=0 relative1sigma=50.0% active=228 pending_batches=228 wave=1 provisional
+[2026-09-20T17:51:05+00:00] parallel8_9e4d4ad0009c p=0.0025 N=24,975 Fjoint=21 FX=8 FZ=14 Fboth=1 decodefail=0 relative1sigma=21.8% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:51:11+00:00] parallel8_9e4d4ad0009c p=0.0025 N=24,989 Fjoint=21 FX=8 FZ=14 Fboth=1 decodefail=0 relative1sigma=21.8% active=363 pending_batches=363 wave=2 provisional
+[2026-09-20T17:51:30+00:00] parallel8_9e4d4ad0009c p=0.0025 N=29,708 Fjoint=24 FX=8 FZ=17 Fboth=1 decodefail=0 relative1sigma=20.4% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:51:42+00:00] parallel8_9e4d4ad0009c p=0.0025 N=30,917 Fjoint=27 FX=9 FZ=19 Fboth=1 decodefail=0 relative1sigma=19.2% active=1 pending_batches=1 wave=3 provisional
+[2026-09-20T17:51:42+00:00] parallel8_9e4d4ad0009c p=0.0025 N=30,921 Fjoint=27 FX=9 FZ=19 Fboth=1 decodefail=0 relative1sigma=19.2% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:51:42+00:00] parallel8_9e4d4ad0009c p=0.0025 N=30,921 Fjoint=27 FX=9 FZ=19 Fboth=1 decodefail=0 relative1sigma=19.2% active=0 pending_batches=0 wave=- point_done precision_reached
+Preparing parallel9_4ec1ca467df4 p=0.0025; R=7, idle=0, full correlated DEM, fixed beam=2.
+Workers 380/380; single-thread processes; stop checked only after complete waves; memory estimate 184 MiB/worker.
+[2026-09-20T17:51:55+00:00] parallel9_4ec1ca467df4 p=0.0025 N=636 Fjoint=2 FX=2 FZ=0 Fboth=0 decodefail=0 relative1sigma=70.6% active=122 pending_batches=122 wave=0 provisional
+[2026-09-20T17:52:08+00:00] parallel9_4ec1ca467df4 p=0.0025 N=1,000 Fjoint=2 FX=2 FZ=0 Fboth=0 decodefail=0 relative1sigma=70.6% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:52:28+00:00] parallel9_4ec1ca467df4 p=0.0025 N=2,240 Fjoint=2 FX=2 FZ=0 Fboth=0 decodefail=0 relative1sigma=70.7% active=331 pending_batches=331 wave=1 provisional
+[2026-09-20T17:52:59+00:00] parallel9_4ec1ca467df4 p=0.0025 N=12,413 Fjoint=11 FX=6 FZ=5 Fboth=0 decodefail=0 relative1sigma=30.1% active=2 pending_batches=2 wave=1 provisional
+[2026-09-20T17:53:01+00:00] parallel9_4ec1ca467df4 p=0.0025 N=12,475 Fjoint=12 FX=7 FZ=6 Fboth=1 decodefail=0 relative1sigma=28.9% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:53:31+00:00] parallel9_4ec1ca467df4 p=0.0025 N=12,511 Fjoint=12 FX=7 FZ=6 Fboth=1 decodefail=0 relative1sigma=28.9% active=374 pending_batches=374 wave=2 provisional
+[2026-09-20T17:54:02+00:00] parallel9_4ec1ca467df4 p=0.0025 N=25,749 Fjoint=22 FX=16 FZ=7 Fboth=1 decodefail=0 relative1sigma=21.3% active=6 pending_batches=6 wave=2 provisional
+[2026-09-20T17:54:15+00:00] parallel9_4ec1ca467df4 p=0.0025 N=25,965 Fjoint=22 FX=16 FZ=7 Fboth=1 decodefail=0 relative1sigma=21.3% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:54:32+00:00] parallel9_4ec1ca467df4 p=0.0025 N=27,031 Fjoint=22 FX=16 FZ=7 Fboth=1 decodefail=0 relative1sigma=21.3% active=245 pending_batches=245 wave=3 provisional
+[2026-09-20T17:55:03+00:00] parallel9_4ec1ca467df4 p=0.0025 N=29,471 Fjoint=23 FX=16 FZ=8 Fboth=1 decodefail=0 relative1sigma=20.8% active=1 pending_batches=1 wave=3 provisional
+[2026-09-20T17:55:07+00:00] parallel9_4ec1ca467df4 p=0.0025 N=29,481 Fjoint=23 FX=16 FZ=8 Fboth=1 decodefail=0 relative1sigma=20.8% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:55:33+00:00] parallel9_4ec1ca467df4 p=0.0025 N=31,950 Fjoint=24 FX=17 FZ=8 Fboth=1 decodefail=0 relative1sigma=20.4% active=10 pending_batches=10 wave=4 provisional
+[2026-09-20T17:55:52+00:00] parallel9_4ec1ca467df4 p=0.0025 N=32,020 Fjoint=25 FX=17 FZ=9 Fboth=1 decodefail=0 relative1sigma=20.0% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:55:52+00:00] parallel9_4ec1ca467df4 p=0.0025 N=32,020 Fjoint=25 FX=17 FZ=9 Fboth=1 decodefail=0 relative1sigma=20.0% active=0 pending_batches=0 wave=- point_done precision_reached
+Preparing parallel8_d4168a22d247 p=0.0025; R=7, idle=0, full correlated DEM, fixed beam=2.
+Workers 380/380; single-thread processes; stop checked only after complete waves; memory estimate 184 MiB/worker.
+[2026-09-20T17:56:22+00:00] parallel8_d4168a22d247 p=0.0025 N=678 Fjoint=1 FX=0 FZ=1 Fboth=0 decodefail=0 relative1sigma=99.9% active=108 pending_batches=108 wave=0 provisional
+[2026-09-20T17:56:37+00:00] parallel8_d4168a22d247 p=0.0025 N=1,000 Fjoint=3 FX=0 FZ=3 Fboth=0 decodefail=0 relative1sigma=57.6% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:57:13+00:00] parallel8_d4168a22d247 p=0.0025 N=2,960 Fjoint=4 FX=1 FZ=3 Fboth=0 decodefail=0 relative1sigma=50.0% active=268 pending_batches=268 wave=1 provisional
+[2026-09-20T17:57:43+00:00] parallel8_d4168a22d247 p=0.0025 N=7,929 Fjoint=10 FX=3 FZ=7 Fboth=0 decodefail=0 relative1sigma=31.6% active=19 pending_batches=19 wave=1 provisional
+[2026-09-20T17:58:14+00:00] parallel8_d4168a22d247 p=0.0025 N=8,289 Fjoint=13 FX=5 FZ=8 Fboth=0 decodefail=0 relative1sigma=27.7% active=1 pending_batches=1 wave=1 provisional
+[2026-09-20T17:58:15+00:00] parallel8_d4168a22d247 p=0.0025 N=8,309 Fjoint=14 FX=6 FZ=9 Fboth=1 decodefail=0 relative1sigma=26.7% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:58:44+00:00] parallel8_d4168a22d247 p=0.0025 N=10,289 Fjoint=15 FX=6 FZ=10 Fboth=1 decodefail=0 relative1sigma=25.8% active=252 pending_batches=252 wave=2 provisional
+[2026-09-20T17:59:14+00:00] parallel8_d4168a22d247 p=0.0025 N=14,741 Fjoint=21 FX=9 FZ=13 Fboth=1 decodefail=0 relative1sigma=21.8% active=4 pending_batches=4 wave=2 provisional
+[2026-09-20T17:59:25+00:00] parallel8_d4168a22d247 p=0.0025 N=14,813 Fjoint=21 FX=9 FZ=13 Fboth=1 decodefail=0 relative1sigma=21.8% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T17:59:44+00:00] parallel8_d4168a22d247 p=0.0025 N=17,186 Fjoint=21 FX=9 FZ=13 Fboth=1 decodefail=0 relative1sigma=21.8% active=53 pending_batches=53 wave=3 provisional
+[2026-09-20T18:00:01+00:00] parallel8_d4168a22d247 p=0.0025 N=17,610 Fjoint=22 FX=10 FZ=13 Fboth=1 decodefail=0 relative1sigma=21.3% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T18:00:14+00:00] parallel8_d4168a22d247 p=0.0025 N=19,056 Fjoint=22 FX=10 FZ=13 Fboth=1 decodefail=0 relative1sigma=21.3% active=133 pending_batches=133 wave=4 provisional
+[2026-09-20T18:00:33+00:00] parallel8_d4168a22d247 p=0.0025 N=19,987 Fjoint=22 FX=10 FZ=13 Fboth=1 decodefail=0 relative1sigma=21.3% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T18:00:44+00:00] parallel8_d4168a22d247 p=0.0025 N=20,611 Fjoint=22 FX=10 FZ=13 Fboth=1 decodefail=0 relative1sigma=21.3% active=260 pending_batches=260 wave=5 provisional
+[2026-09-20T18:01:03+00:00] parallel8_d4168a22d247 p=0.0025 N=22,688 Fjoint=23 FX=10 FZ=14 Fboth=1 decodefail=0 relative1sigma=20.8% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T18:01:14+00:00] parallel8_d4168a22d247 p=0.0025 N=23,772 Fjoint=24 FX=11 FZ=14 Fboth=1 decodefail=0 relative1sigma=20.4% active=144 pending_batches=144 wave=6 provisional
+[2026-09-20T18:01:29+00:00] parallel8_d4168a22d247 p=0.0025 N=24,636 Fjoint=24 FX=11 FZ=14 Fboth=1 decodefail=0 relative1sigma=20.4% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T18:01:46+00:00] parallel8_d4168a22d247 p=0.0025 N=25,632 Fjoint=24 FX=11 FZ=14 Fboth=1 decodefail=0 relative1sigma=20.4% active=2 pending_batches=2 wave=7 provisional
+[2026-09-20T18:02:01+00:00] parallel8_d4168a22d247 p=0.0025 N=25,638 Fjoint=24 FX=11 FZ=14 Fboth=1 decodefail=0 relative1sigma=20.4% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T18:02:16+00:00] parallel8_d4168a22d247 p=0.0025 N=26,667 Fjoint=24 FX=11 FZ=14 Fboth=1 decodefail=0 relative1sigma=20.4% active=5 pending_batches=5 wave=8 provisional
+[2026-09-20T18:02:23+00:00] parallel8_d4168a22d247 p=0.0025 N=26,682 Fjoint=25 FX=12 FZ=14 Fboth=1 decodefail=0 relative1sigma=20.0% active=0 pending_batches=0 wave=- wave_end
+[2026-09-20T18:02:23+00:00] parallel8_d4168a22d247 p=0.0025 N=26,682 Fjoint=25 FX=12 FZ=14 Fboth=1 decodefail=0 relative1sigma=20.0% active=0 pending_batches=0 wave=- point_done precision_reached
+Finished. Reports and plots: /home/zijianliang/scan_results

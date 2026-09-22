@@ -1,0 +1,433 @@
+{
+  "schema_version": 1,
+  "generator_version": "w7_direction_orders_v1_r7_dem",
+  "seed": 20260921,
+  "candidates": [
+    {
+      "id": "w7_baseline",
+      "code": "w7",
+      "family": "baseline8",
+      "schedule": {
+        "x": [
+          0,
+          null,
+          3,
+          6,
+          5,
+          4,
+          1,
+          2
+        ],
+        "z": [
+          6,
+          5,
+          0,
+          1,
+          3,
+          2,
+          null,
+          4
+        ]
+      },
+      "schedule_sha256": "a59e430d4363b02cf8dbbdf54e1e914423f2835282d871d2a67319d9f5b6cc51",
+      "is_baseline": true,
+      "dem_sha256": "8e820856e2fdc35cdbd673082f74895a0b9e25692ae160b750502e177ce3a0af",
+      "cnot_layers": 8,
+      "cnots_per_cycle": 392,
+      "current_distance_status": "requires this campaign's distance screening"
+    },
+    {
+      "id": "parallel9_a2b5cacfbb84",
+      "code": "w7",
+      "family": "parallel9",
+      "schedule": {
+        "x": [
+          null,
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          null,
+          2
+        ],
+        "z": [
+          6,
+          null,
+          null,
+          1,
+          0,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "schedule_sha256": "a2b5cacfbb84d4adffd8eb00c1af4c603350279a443d2dceffe906ebfc36dfe2",
+      "is_baseline": false,
+      "dem_sha256": "02dd5afa17e832feab23adb423fb2f9e190fd412f6fa07ff0c2f88d71d8bcb96",
+      "cnot_layers": 9,
+      "cnots_per_cycle": 392,
+      "current_distance_status": "requires this campaign's distance screening"
+    },
+    {
+      "id": "parallel8_215be26722e3",
+      "code": "w7",
+      "family": "parallel8",
+      "schedule": {
+        "x": [
+          null,
+          2,
+          3,
+          5,
+          6,
+          4,
+          1,
+          0
+        ],
+        "z": [
+          5,
+          4,
+          0,
+          1,
+          3,
+          2,
+          null,
+          6
+        ]
+      },
+      "schedule_sha256": "215be26722e38289e0e9a3f18c9ca0eeec11434a7c28f531479eae60f0155b50",
+      "is_baseline": false,
+      "dem_sha256": "ac38a2900a6ddac687804c3c97044c4b97001b6b676c7ef42f29bd5ee77decec",
+      "cnot_layers": 8,
+      "cnots_per_cycle": 392,
+      "current_distance_status": "requires this campaign's distance screening"
+    },
+    {
+      "id": "parallel9_29757d3627fd",
+      "code": "w7",
+      "family": "parallel9",
+      "schedule": {
+        "x": [
+          1,
+          2,
+          4,
+          6,
+          null,
+          3,
+          5,
+          null,
+          0
+        ],
+        "z": [
+          4,
+          null,
+          0,
+          null,
+          3,
+          1,
+          2,
+          5,
+          6
+        ]
+      },
+      "schedule_sha256": "29757d3627fdbeceb78bac3b9d68b34b7665cb06df9ed7d424e177aa968a01bc",
+      "is_baseline": false,
+      "dem_sha256": "45ce62899d297ceca821efc9f984e9fb060de93d4ebc73af8aace9d4f0f206f4",
+      "cnot_layers": 9,
+      "cnots_per_cycle": 392,
+      "current_distance_status": "requires this campaign's distance screening"
+    },
+    {
+      "id": "parallel8_4c4fb6c67ebc",
+      "code": "w7",
+      "family": "parallel8",
+      "schedule": {
+        "x": [
+          0,
+          2,
+          3,
+          6,
+          4,
+          5,
+          1,
+          null
+        ],
+        "z": [
+          null,
+          5,
+          1,
+          0,
+          2,
+          3,
+          6,
+          4
+        ]
+      },
+      "schedule_sha256": "4c4fb6c67ebc1f776cc7c3446ee6f629b92be5bd504af609be55be87db5e8c38",
+      "is_baseline": false,
+      "dem_sha256": "2357135d0ca4b9ccadfeb3de1f220d071f357635424700d2cf54d922d065e49d",
+      "cnot_layers": 8,
+      "cnots_per_cycle": 392,
+      "current_distance_status": "requires this campaign's distance screening"
+    },
+    {
+      "id": "parallel9_12e4cb50666f",
+      "code": "w7",
+      "family": "parallel9",
+      "schedule": {
+        "x": [
+          1,
+          null,
+          5,
+          4,
+          3,
+          null,
+          6,
+          2,
+          0
+        ],
+        "z": [
+          4,
+          6,
+          null,
+          3,
+          0,
+          2,
+          1,
+          5,
+          null
+        ]
+      },
+      "schedule_sha256": "12e4cb50666f0c40145d7e5b3f7c8ced2f7514fe2e15063d2fd3e6f074eb5e20",
+      "is_baseline": false,
+      "dem_sha256": "ef0ed3e773f802032f973853655b25703ba5bd1932240e642eff4ad75e42ba62",
+      "cnot_layers": 9,
+      "cnots_per_cycle": 392,
+      "current_distance_status": "requires this campaign's distance screening"
+    },
+    {
+      "id": "parallel8_64ed9c3703ea",
+      "code": "w7",
+      "family": "parallel8",
+      "schedule": {
+        "x": [
+          2,
+          1,
+          5,
+          4,
+          6,
+          3,
+          null,
+          0
+        ],
+        "z": [
+          null,
+          4,
+          0,
+          2,
+          1,
+          3,
+          5,
+          6
+        ]
+      },
+      "schedule_sha256": "64ed9c3703ead2109d86e62393a726cd1aa91c701a6c1170e8d7d91b62bff06a",
+      "is_baseline": false,
+      "dem_sha256": "1e6d3c48fd0dbc6ee5eac40981b262203a61525af6d521a0dce378ffce80f1a7",
+      "cnot_layers": 8,
+      "cnots_per_cycle": 392,
+      "current_distance_status": "requires this campaign's distance screening"
+    },
+    {
+      "id": "parallel9_ad6ecb11d763",
+      "code": "w7",
+      "family": "parallel9",
+      "schedule": {
+        "x": [
+          null,
+          1,
+          4,
+          3,
+          5,
+          6,
+          null,
+          2,
+          0
+        ],
+        "z": [
+          4,
+          6,
+          2,
+          0,
+          3,
+          1,
+          5,
+          null,
+          null
+        ]
+      },
+      "schedule_sha256": "ad6ecb11d763dce4df0a7bf079ebe20f3cf62e18c61805bf1f9b7a7bdc7945f7",
+      "is_baseline": false,
+      "dem_sha256": "60eb15669dccad43e9c4ec5ed42f45611445b09f9c1b8cc6de8edd016f69909b",
+      "cnot_layers": 9,
+      "cnots_per_cycle": 392,
+      "current_distance_status": "requires this campaign's distance screening"
+    },
+    {
+      "id": "parallel8_558803c38e91",
+      "code": "w7",
+      "family": "parallel8",
+      "schedule": {
+        "x": [
+          0,
+          1,
+          4,
+          3,
+          5,
+          6,
+          2,
+          null
+        ],
+        "z": [
+          6,
+          null,
+          2,
+          1,
+          3,
+          0,
+          4,
+          5
+        ]
+      },
+      "schedule_sha256": "558803c38e91ae0489d5d8a2ef1ec2e54de65f43b9b8497470edcc740f4482fc",
+      "is_baseline": false,
+      "dem_sha256": "f6541da12a91cb4f207171e68d1fa8cf2423317a4dd09c446f5fe69d96b00aaa",
+      "cnot_layers": 8,
+      "cnots_per_cycle": 392,
+      "current_distance_status": "requires this campaign's distance screening"
+    },
+    {
+      "id": "parallel9_4ec1ca467df4",
+      "code": "w7",
+      "family": "parallel9",
+      "schedule": {
+        "x": [
+          1,
+          2,
+          5,
+          null,
+          6,
+          4,
+          3,
+          0,
+          null
+        ],
+        "z": [
+          4,
+          null,
+          3,
+          0,
+          1,
+          null,
+          2,
+          5,
+          6
+        ]
+      },
+      "schedule_sha256": "4ec1ca467df40835d401b69f8e7bacd5e776b265bbe69e7c2249a3d714894553",
+      "is_baseline": false,
+      "dem_sha256": "6f1189c55e40afcff96ae36513d39ac94f90ea294087c6e494f540de1fce3bf3",
+      "cnot_layers": 9,
+      "cnots_per_cycle": 392,
+      "current_distance_status": "requires this campaign's distance screening"
+    },
+    {
+      "id": "parallel8_9e4d4ad0009c",
+      "code": "w7",
+      "family": "parallel8",
+      "schedule": {
+        "x": [
+          null,
+          0,
+          5,
+          6,
+          3,
+          4,
+          2,
+          1
+        ],
+        "z": [
+          6,
+          5,
+          3,
+          2,
+          0,
+          1,
+          4,
+          null
+        ]
+      },
+      "schedule_sha256": "9e4d4ad0009c557094947686efeefcaf127bb01bb4dd4052f3e3486217e8f047",
+      "is_baseline": false,
+      "dem_sha256": "8c76e0ed4bee3318d79d656fe931fcabd7782e48e071eded6f9c86b20827dcef",
+      "cnot_layers": 8,
+      "cnots_per_cycle": 392,
+      "current_distance_status": "requires this campaign's distance screening"
+    },
+    {
+      "id": "parallel8_d4168a22d247",
+      "code": "w7",
+      "family": "parallel8",
+      "schedule": {
+        "x": [
+          null,
+          2,
+          3,
+          5,
+          4,
+          6,
+          1,
+          0
+        ],
+        "z": [
+          4,
+          5,
+          2,
+          0,
+          3,
+          1,
+          6,
+          null
+        ]
+      },
+      "schedule_sha256": "d4168a22d247ce60e35f5a768aa5a46c1337c5ec5c930ec9bbd6dd9e99bb14e1",
+      "is_baseline": false,
+      "dem_sha256": "0e436b497409424a1b7f528b94c720473697c06fa358d7adfb0c7ff8181f9155",
+      "cnot_layers": 8,
+      "cnots_per_cycle": 392,
+      "current_distance_status": "requires this campaign's distance screening"
+    }
+  ],
+  "semantic_deduplication": {
+    "method": "canonical full undecomposed labelled DEM hash; parity-merge duplicate response columns",
+    "rounds": 7,
+    "p": 0.003,
+    "idle_scale": 0.0,
+    "rejected": {
+      "identical_schedule": 1,
+      "identical_labelled_dem": 1
+    },
+    "does_not_identify_all_graph_isomorphisms": true
+  },
+  "scope": "Finite seeded search of legal translation-invariant 8/9-layer no-flag orders, plus 14-layer serial controls; 392 CNOTs per cycle. Not an exhaustive search or a proof of schedule optimality.",
+  "distance_warning": "Historical upper bounds select seed orders only. Every candidate requires current R7 distance screening; no historical upper bound is a lower bound or a current certificate.",
+  "source": {
+    "description": "Deterministically regenerate old 64-candidate campaign at original seed; retain the twelve schedules appearing in completed old point pairs. IDs and schedule hashes verified.",
+    "count_before_selection": 64,
+    "seed": 20260921,
+    "source_log_original_sha256": "a4255a2440b8c66f7ae98810de7fbd7a56cab3c8e0fb09ba57ef37d33eb91d6c",
+    "all_measured_ids_recovered": true
+  }
+}
